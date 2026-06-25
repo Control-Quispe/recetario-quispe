@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Biblia de Recetas | Restaurante Quispe</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css?v=3">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- VISTA: HOME -->
+        <div id="homeView" class="view active-view">
+            <div class="home-container">
+                <img src="LOGO GQ.png" alt="Grupo Quispe" class="home-logo">
+                <h2 class="home-restaurant-name">RESTAURANTE QUISPE</h2>
+                <h1 class="home-title">Alta cocina peruana</h1>
+                <p class="home-chef">Chef: Jeremias Urrutia</p>
+                
+                <div class="home-buttons">
+                    <button id="btnGoToRecipes" class="home-btn primary-btn">
+                        <i class="ph ph-book-open-text"></i>
+                        <span>Ir a Recetas</span>
+                        <small>La carta completa de Quispe</small>
+                    </button>
+                    <button id="btnGoToSubrecipes" class="home-btn secondary-btn">
+                        <i class="ph ph-cooking-pot"></i>
+                        <span>Ir a Subrecetas</span>
+                        <small>Bases, salsas y preparaciones</small>
+                    </button>
+                    <button id="btnGoToArchive" class="home-btn tertiary-btn" style="background: transparent; border: 1px dashed var(--text-secondary); color: var(--text-secondary);">
+                        <i class="ph ph-archive"></i>
+                        <span>Archivo Histórico</span>
+                        <small>Recetas fuera de carta</small>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- VISTA: CATÁLOGO (RECETAS O SUBRECETAS) -->
+        <div id="catalogView" class="view">
+            <!-- Header -->
+            <header class="top-nav">
+                <div class="nav-top-row">
+                    <button id="btnBackToHome" class="back-home-btn">
+                        <i class="ph ph-house"></i> Inicio
+                    </button>
+                    <div class="logo">
+                        <img src="LOGO GQ.png" alt="Grupo Quispe" class="brand-logo">
+                    </div>
+                    <div class="view-title-badge" id="viewTitleBadge">Recetas</div>
+                </div>
+                
+                <div class="search-bar">
+                    <i class="ph ph-magnifying-glass"></i>
+                    <input type="text" id="searchInput" placeholder="Buscar receta o ingrediente...">
+                </div>
+                <div class="categories" id="categoryFilters">
+                    <!-- Se llenará dinámicamente -->
+                </div>
+            </header>
+
+            <!-- Main Content -->
+            <main id="mainContent">
+                <div class="recipe-grid" id="recipeGrid">
+                    <!-- Se llenará dinámicamente con JS -->
+                </div>
+            </main>
+        </div>
+
+        <!-- VISTA: MODAL DE RECETA -->
+        <div id="recipeModal" class="modal">
+            <div class="modal-content">
+                <button class="close-btn" id="closeModalBtn">
+                    <i class="ph ph-x"></i> Volver al Catálogo
+                </button>
+                <div class="recipe-detail" id="recipeDetailContainer">
+                    <!-- Detalle de receta se inyecta aquí -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Cargar los datos y la lógica de la app -->
+    <script src="descriptions.js?v=1"></script>
+    <script src="data.js?v=4"></script>
+    <script src="app.js?v=4"></script>
+</body>
+</html>

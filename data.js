@@ -610,7 +610,7 @@ const recipeData = [
             },
             {
                 "name": "Leche de Tigre bachiche",
-                "umg": "ML",
+                "umg": "Mililitros",
                 "qty": 27
             },
             {
@@ -787,7 +787,7 @@ const recipeData = [
         "ingredients": [
             {
                 "name": "Aceite de oliva suave",
-                "umg": "ML",
+                "umg": "Mililitros",
                 "qty": 0
             },
             {
@@ -812,7 +812,7 @@ const recipeData = [
             },
             {
                 "name": "Leche de tigre clásica",
-                "umg": "ML",
+                "umg": "Mililitros",
                 "qty": 10
             },
             {
@@ -852,12 +852,12 @@ const recipeData = [
             },
             {
                 "name": "Aceite de cilantro",
-                "umg": "ML",
+                "umg": "Mililitros",
                 "qty": 5
             },
             {
                 "name": "Aceite de vegetal",
-                "umg": "ML",
+                "umg": "Mililitros",
                 "qty": 10
             }
         ],
@@ -1079,7 +1079,7 @@ const recipeData = [
             },
             {
                 "name": "Aceite de cilantro",
-                "umg": "ML",
+                "umg": "Mililitros",
                 "qty": 2
             }
         ],
@@ -1141,12 +1141,12 @@ const recipeData = [
             },
             {
                 "name": "Aceite de oliva",
-                "umg": "ML",
+                "umg": "Mililitros",
                 "qty": 2
             },
             {
                 "name": "Salsa Vinicunka",
-                "umg": "ML",
+                "umg": "Mililitros",
                 "qty": 6
             }
         ],
@@ -1169,7 +1169,7 @@ const recipeData = [
         "ingredients": [
             {
                 "name": "Aceite Girasol",
-                "umg": "ml",
+                "umg": "Mililitros",
                 "qty": 1
             },
             {
@@ -1239,7 +1239,7 @@ const recipeData = [
             },
             {
                 "name": "Leche de tigre clasica",
-                "umg": "ml",
+                "umg": "Mililitros",
                 "qty": 2
             }
         ],
@@ -1262,7 +1262,7 @@ const recipeData = [
             },
             {
                 "name": "Aceite de cilantro",
-                "umg": "ML",
+                "umg": "Mililitros",
                 "qty": 1
             },
             {
@@ -1299,54 +1299,353 @@ const recipeData = [
         ]
     },
     {
-        "id": "vieras-u10-achupetadas",
-        "name": "Vieras U10 Achupetadas",
-        "category": "Principales",
-        "status": "archived",
-        "area": "No asignada",
-        "time": "00:00",
+        "id": "maki-tempura-tartar---5uds.",
+        "name": "Maki Tempura Tartar - 5uds.",
+        "category": "Nikkei",
+        "status": "active",
+        "area": "Fríos",
+        "time": "03:45",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
-                "name": "Aceite de oliva extra virgen",
-                "umg": "g",
+                "name": "Alga Nori seca",
+                "umg": "Unidad",
+                "qty": 0.5
+            },
+            {
+                "name": "Arroz shari",
+                "umg": "Gramos",
+                "qty": 60
+            },
+            {
+                "name": "Ebi furai (langostino nobashi)",
+                "umg": "Unidad",
+                "qty": 1
+            },
+            {
+                "name": "Queso crema untar",
+                "umg": "Gramos",
+                "qty": 10
+            },
+            {
+                "name": "Aguacate limpio",
+                "umg": "Gramos",
+                "qty": 30
+            },
+            {
+                "name": "Salsa Tare",
+                "umg": "Gramos",
+                "qty": 15
+            },
+            {
+                "name": "Salsa Vinicunka",
+                "umg": "Gramos",
+                "qty": 6
+            },
+            {
+                "name": "Tartar de Atún sr",
+                "umg": "Gramos",
+                "qty": 60
+            },
+            {
+                "name": "Masa Tempura",
+                "umg": "Gramos",
+                "qty": 30
+            },
+            {
+                "name": "Cebollino",
+                "umg": "Gramos",
+                "qty": 1
+            }
+        ],
+        "procedure": [
+            "1. Hacer un roll uniforme con el arroz shari y el alga nori por fuera relleno de ebi furai, aguacate y queso cema.",
+            "2. Tempurizar y freir.",
+            "3. Cortar los bordes y porcionar en 5 piezas.",
+            "4. Colocar los discos separados y boca arriba y sobre cada uno colocar una porción de tarta de atún.",
+            "5. Sobre cada porción colocar un punto de salsa vincunka y salsa tare."
+        ]
+    },
+    {
+        "id": "maki-acebichado---5uds.",
+        "name": "Maki Acebichado - 5uds.",
+        "category": "Nikkei",
+        "status": "active",
+        "area": "Fríos",
+        "time": "03:45",
+        "description": "",
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
+        "ingredients": [
+            {
+                "name": "Aguacate limpio",
+                "umg": "Gramos",
+                "qty": 25
+            },
+            {
+                "name": "Alga Nori seca",
+                "umg": "Unidad",
+                "qty": 0.25
+            },
+            {
+                "name": "Arroz shari",
+                "umg": "Gramos",
+                "qty": 60
+            },
+            {
+                "name": "Ebi furai (Langostino Nobashi)",
+                "umg": "Unidad",
+                "qty": 1
+            },
+            {
+                "name": "Lomo de Atún rojo",
+                "umg": "Gramos",
+                "qty": 15
+            },
+            {
+                "name": "Salsa acevichada",
+                "umg": "Gramos",
+                "qty": 30
+            },
+            {
+                "name": "Togarashi",
+                "umg": "Gramos",
+                "qty": 1
+            }
+        ],
+        "procedure": [
+            "1. Hacer un roll uniforme con el arroz shari y el alga nori por dentro, relleno de aguacate y ebi furai.",
+            "2. Cubrir el roll con laminas de Atún.",
+            "3. Cortar las bordes y porcionar en 5 piezas.",
+            "4. Colocar sobre el plato de servicio como refiere la foto y cubrir con salsa acevichada y decorar con togarashi."
+        ]
+    },
+    {
+        "id": "maki-vinicunka---5unidads.",
+        "name": "Maki Vinicunka - 5Unidads.",
+        "category": "Nikkei",
+        "status": "active",
+        "area": "Fríos",
+        "time": "03:45",
+        "description": "",
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
+        "ingredients": [
+            {
+                "name": "Aguacate limpio",
+                "umg": "Gramos",
+                "qty": 25
+            },
+            {
+                "name": "Alga Nori seca",
+                "umg": "Unidad",
+                "qty": 0.25
+            },
+            {
+                "name": "Arroz shari",
+                "umg": "Gramos",
+                "qty": 60
+            },
+            {
+                "name": "Ebi furai (Langostino Nobashi)",
+                "umg": "Unidad",
+                "qty": 1
+            },
+            {
+                "name": "Salmon limpio",
+                "umg": "Gramos",
+                "qty": 15
+            },
+            {
+                "name": "Salsa Vinicunka",
+                "umg": "Gramos",
+                "qty": 30
+            }
+        ],
+        "procedure": [
+            "1. Hacer un roll uniforme con el arroz shari y el alga nori por dentro, relleno de aguacate y ebi furai.",
+            "2. Cubrir el roll con laminas de salmón.",
+            "3. Cortar las bordes y porcionar en 5 piezas.",
+            "4. Colocar sobre el plato de servicio como refiere la foto y bañar con salsa vinicunka y asar con soplete."
+        ]
+    },
+    {
+        "id": "nombre-maki-anticuchero---5unds.",
+        "name": "Nombre Maki Anticuchero - 5unds.",
+        "category": "Nikkei",
+        "status": "active",
+        "area": "Fríos",
+        "time": "03:45",
+        "description": "",
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
+        "ingredients": [
+            {
+                "name": "Aguacate limpio",
+                "umg": "Gramos",
+                "qty": 20
+            },
+            {
+                "name": "Alga Nori seca",
+                "umg": "Unidad",
+                "qty": 0.25
+            },
+            {
+                "name": "Arroz shari",
+                "umg": "Gramos",
+                "qty": 60
+            },
+            {
+                "name": "Chalaquita Quispe",
+                "umg": "Gramos",
                 "qty": 0
             },
             {
-                "name": "Beurre blanc de chupe",
-                "umg": "g",
+                "name": "Ebi furai (Langostino Nobashi)",
+                "umg": "Unidad",
+                "qty": 1
+            },
+            {
+                "name": "Lubina limpia",
+                "umg": "Gramos",
+                "qty": 15
+            },
+            {
+                "name": "Salsa Anticuchera",
+                "umg": "Gramos",
+                "qty": 10
+            }
+        ],
+        "procedure": [
+            "1. Hacer un roll uniforme con el arroz shari y el alga nori por dentro, relleno de aguacate y ebi furai.",
+            "2. Cubrir el roll con laminas de lubina.",
+            "3. Cortar las bordes y porcionar en 5 piezas.",
+            "4. Colocar sobre el plato de servicio como refiere la foto y cubrir con salsa anticuchera y chalaquita Quispe."
+        ]
+    },
+    {
+        "id": "nombre-nigiri-de-salmon---2unds.",
+        "name": "Nombre Nigiri de Salmón - 2unds.",
+        "category": "Nikkei",
+        "status": "active",
+        "area": "Fríos",
+        "time": "03:45",
+        "description": "",
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
+        "ingredients": [
+            {
+                "name": "Arroz shari",
+                "umg": "Gramos",
+                "qty": 40
+            },
+            {
+                "name": "Base nikkei Ponzu",
+                "umg": "Gramos",
+                "qty": 6
+            },
+            {
+                "name": "Cebolla frita deshidratada",
+                "umg": "Gramos",
+                "qty": 2
+            },
+            {
+                "name": "Ciboullette cebollino",
+                "umg": "Gramos",
                 "qty": 0
             },
             {
-                "name": "Carne de Viera UND",
-                "umg": "g",
-                "qty": 0
+                "name": "Emulsión de ají amarillo",
+                "umg": "Gramos",
+                "qty": 4
             },
             {
-                "name": "Pure de coliflor",
-                "umg": "g",
-                "qty": 0
+                "name": "Papel de tapioca",
+                "umg": "Gramos",
+                "qty": 3
             },
             {
-                "name": "Salsa chupe",
-                "umg": "g",
-                "qty": 0
+                "name": "Salmón limpio",
+                "umg": "Gramos",
+                "qty": 32
+            }
+        ],
+        "procedure": []
+    },
+    {
+        "id": "nombre-nigiri-de-atun-de-almadraba---2unds.",
+        "name": "Nombre Nigiri de Atún de Almadraba - 2unds.",
+        "category": "Nikkei",
+        "status": "active",
+        "area": "Fríos",
+        "time": "03:45",
+        "description": "",
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
+        "ingredients": [
+            {
+                "name": "Arroz shari",
+                "umg": "Gramos",
+                "qty": 40
             },
             {
-                "name": "Espuma de Parmesano",
-                "umg": "g",
-                "qty": 0
+                "name": "Base nikkei Ponzu",
+                "umg": "Gramos",
+                "qty": 2
             },
             {
-                "name": "Kale",
-                "umg": "g",
-                "qty": 0
+                "name": "Chips de alga nori",
+                "umg": "Gramos",
+                "qty": 2
             },
             {
-                "name": "Aceite de cilantro",
-                "umg": "g",
-                "qty": 0
+                "name": "Lomo de Atún rojo",
+                "umg": "Gramos",
+                "qty": 30
+            },
+            {
+                "name": "Salsa Acevichada",
+                "umg": "Gramos",
+                "qty": 3
+            }
+        ],
+        "procedure": [
+            "1. Con el arroz shari, armar la base del nigiri ( 2 unid por porción)",
+            "2. Cubrir las porciones de arroz con una lamina de atún.",
+            "3. Con una brocha de cocina, pintar el atun con salsa ponzu.",
+            "4. Colocar un punto de salsa acevichada y decorar con el chip de alga nori."
+        ]
+    },
+    {
+        "id": "nombre-nigiri-de-lubina---2unds.",
+        "name": "Nombre Nigiri de Lubina - 2unds.",
+        "category": "Nikkei",
+        "status": "active",
+        "area": "Fríos",
+        "time": "03:45",
+        "description": "",
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
+        "ingredients": [
+            {
+                "name": "Lubina limpia (800gr - 1000gr)",
+                "umg": "Gramos",
+                "qty": 30
+            },
+            {
+                "name": "Arroz shari",
+                "umg": "Gramos",
+                "qty": 35
+            },
+            {
+                "name": "Crema de trufa",
+                "umg": "Gramos",
+                "qty": 3
+            },
+            {
+                "name": "Base nikkei Ponzu",
+                "umg": "Mililitros",
+                "qty": 4
+            },
+            {
+                "name": "Salsa soja s/gluten",
+                "umg": "Mililitros",
+                "qty": 33
             }
         ],
         "procedure": []

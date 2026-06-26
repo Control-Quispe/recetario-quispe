@@ -4,8 +4,8 @@
     --bg-modal: #000000; /* Pure Black */
     --text-primary: #ffffff; /* White */
     --text-secondary: #a3a3a3; /* Gray */
-    --accent: #ffffff; /* White instead of Orange */
-    --accent-hover: #cccccc; /* Light Gray */
+    --accent: #f59e0b; /* Amber 500 */
+    --accent-hover: #d97706; /* Amber 600 */
     --border-color: #333333; /* Dark Gray border */
     --success: #10b981; /* Emerald 500 */
     

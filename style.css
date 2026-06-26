@@ -1,12 +1,12 @@
 :root {
-    --bg-dark: #0f172a; /* Slate 900 */
-    --bg-card: #1e293b; /* Slate 800 */
-    --bg-modal: #020617; /* Slate 950 */
-    --text-primary: #f8fafc; /* Slate 50 */
-    --text-secondary: #94a3b8; /* Slate 400 */
-    --accent: #f59e0b; /* Amber 500 */
-    --accent-hover: #d97706; /* Amber 600 */
-    --border-color: #334155; /* Slate 700 */
+    --bg-dark: #000000; /* Pure Black */
+    --bg-card: #0a0a0a; /* Almost Black */
+    --bg-modal: #000000; /* Pure Black */
+    --text-primary: #ffffff; /* White */
+    --text-secondary: #a3a3a3; /* Gray */
+    --accent: #ffffff; /* White instead of Orange */
+    --accent-hover: #cccccc; /* Light Gray */
+    --border-color: #333333; /* Dark Gray border */
     --success: #10b981; /* Emerald 500 */
     
     --font-main: 'Outfit', sans-serif;

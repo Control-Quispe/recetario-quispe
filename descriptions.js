@@ -26,13 +26,13 @@ const menuDescriptions = {
     "causa-de-atun": "Patata marinada con lima y ají amarillo, tartar de atún rojo de almadraba, alcaparrones, salsa acebichada.",
 
     // --- NIKKEI ---
-    "maki-tempura-tartar": "Ebifurai, aguacate, queso crema, tartar de atún rojo de almadraba y taré.",
-    "maki-acebichado": "Ebifurai, aguacate, atún rojo de almadraba, salsa acebichada y togarashi.",
-    "maki-vinicunka": "Ebifurai, aguacate, salmón y sriracha.",
-    "maki-anticuchero": "Ebifurai, aguacate, lubina y salsa anticuchera.",
-    "nigiri-salmon": "Salsa de ají amarillo y crujientes de cebolla.",
-    "nigiri-atun": "Salsa acebichada y nori con salsa ponzu.",
-    "nigiri-lubina": "Salsa ponzu, trufa y sal Maldon.",
+    "maki-tempura-tartar---5uds.": "Ebifurai, aguacate, queso crema, tartar de atún rojo de almadraba y taré.",
+    "maki-acebichado---5uds.": "Ebifurai, aguacate, atún rojo de almadraba, salsa acebichada y togarashi.",
+    "maki-vinicunka---5unidads.": "Ebifurai, aguacate, salmón y sriracha.",
+    "nombre-maki-anticuchero---5unds.": "Ebifurai, aguacate, lubina y salsa anticuchera.",
+    "nombre-nigiri-de-salmon---2unds.": "Salsa de ají amarillo y crujientes de cebolla.",
+    "nombre-nigiri-de-atun-de-almadraba---2unds.": "Salsa acebichada y nori con salsa ponzu.",
+    "nombre-nigiri-de-lubina---2unds.": "Salsa ponzu, trufa y sal Maldon.",
 
     // --- ENTRANTES ---
     "ostras-francesas": "Ostra francesa, emulsión de cilantro, huevas de trucha y leche de tigre de rocoto.",

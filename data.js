@@ -7,7 +7,7 @@ const recipeData = [
         "status": "active",
         "area": "Fríos",
         "time": "03:45",
-        "description": "",
+        "description": "Corvina salvaje marinada con nuestra leche de tigre clásica.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -69,13 +69,13 @@ const recipeData = [
         "procedure": []
     },
     {
-        "id": "nombre-cebiche-mixto-ahumado",
-        "name": "Nombre Cebiche Mixto ahumado",
+        "id": "cebiche-mixto-ahumado",
+        "name": "Cebiche Mixto ahumado",
         "category": "Cebiches",
         "status": "archived",
         "area": "Fríos",
         "time": "03:45",
-        "description": "",
+        "description": "Cebiche mixto, leche de tigre de ahumados de ajíes, corvina, almejas, gambas y chifles.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -153,7 +153,7 @@ const recipeData = [
         "status": "active",
         "area": "Fríos",
         "time": "03:45",
-        "description": "",
+        "description": "Corvina salvaje, pulpo troceado y chicharrón de calamar marinados con leche de tigre de ají amarillo.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -235,7 +235,7 @@ const recipeData = [
         "status": "active",
         "area": "Fríos",
         "time": "03:45",
-        "description": "",
+        "description": "Corvina salvaje marinada con nuestra leche de tigre a base de cilantro y texturas.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -315,7 +315,7 @@ const recipeData = [
         "status": "active",
         "area": "Fríos",
         "time": "03:45",
-        "description": "",
+        "description": "Atún rojo, leche de tigre de tomate de árbol y trompeta de la muerte.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -425,7 +425,7 @@ const recipeData = [
         "status": "active",
         "area": "Fríos",
         "time": "03:45",
-        "description": "",
+        "description": "Clásico / de corvina y pulpo / de atún.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -665,7 +665,7 @@ const recipeData = [
         "status": "active",
         "area": "Fríos",
         "time": "03:45",
-        "description": "",
+        "description": "Atún rojo de almadraba, salsa ponzu y ají amarillo.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -708,13 +708,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "tiradito-de-salmon-&-maracuya",
+        "id": "tiradito-de-salmon-maracuya",
         "name": "Tiradito de Salmón & Maracuyá",
         "category": "Tiraditos",
         "status": "active",
         "area": "Fríos",
         "time": "03:45",
-        "description": "",
+        "description": "Salmón, leche de tigre de ají amarillo y maracuyá con aceite de sésamo, y huevas de trucha ahumada.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -782,7 +782,7 @@ const recipeData = [
         "status": "archived",
         "area": "Fríos",
         "time": "03:45",
-        "description": "",
+        "description": "Láminas de pulpo, salsa de aceitunas de botija, alcaparrones, pimientos de temporada y tomates orgánicos.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -873,13 +873,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "tiradito-de-corvina-&-aguacate",
+        "id": "tiradito-de-corvina-aguacate",
         "name": "Tiradito de corvina & Aguacate",
         "category": "Tiraditos",
         "status": "active",
         "area": "Fríos",
         "time": "03:45",
-        "description": "",
+        "description": "Corvina salvaje, emulsión de limón y aceite de cilantro, huevas de salmón y ají limo.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -954,7 +954,7 @@ const recipeData = [
         "status": "active",
         "area": "Fríos",
         "time": "03:45",
-        "description": "",
+        "description": "Láminas de hamachi, emulsión de queso parmesano, alga hijiki y ponzu.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -1019,7 +1019,7 @@ const recipeData = [
         "status": "active",
         "area": "Fríos",
         "time": "03:45",
-        "description": "",
+        "description": "Patata marinada con lima y ají amarillo, acompañado de farsa de langostinos y salsa de rocoto.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -1158,7 +1158,7 @@ const recipeData = [
         ]
     },
     {
-        "id": "causa-acebichada--de-corvina",
+        "id": "causa-acebichada-de-corvina",
         "name": "Causa Acebichada  de corvina",
         "category": "Causas",
         "status": "active",
@@ -1299,13 +1299,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "maki-tempura-tartar---5uds.",
+        "id": "maki-tempura-tartar-5uds",
         "name": "Maki Tempura Tartar - 5uds.",
         "category": "Nikkei",
         "status": "active",
         "area": "Fríos",
         "time": "03:45",
-        "description": "",
+        "description": "Ebifurai, aguacate, queso crema, tartar de atún rojo de almadraba y taré.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -1368,13 +1368,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "maki-acebichado---5uds.",
+        "id": "maki-acebichado-5uds",
         "name": "Maki Acebichado - 5uds.",
         "category": "Nikkei",
         "status": "active",
         "area": "Fríos",
         "time": "03:45",
-        "description": "",
+        "description": "Ebifurai, aguacate, atún rojo de almadraba, salsa acebichada y togarashi.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -1421,13 +1421,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "maki-vinicunka---5unidads.",
+        "id": "maki-vinicunka-5unidads",
         "name": "Maki Vinicunka - 5Unidads.",
         "category": "Nikkei",
         "status": "active",
         "area": "Fríos",
         "time": "03:45",
-        "description": "",
+        "description": "Ebifurai, aguacate, salmón y sriracha.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -1469,13 +1469,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "nombre-maki-anticuchero---5unds.",
-        "name": "Nombre Maki Anticuchero - 5unds.",
+        "id": "maki-anticuchero-5unds",
+        "name": "Maki Anticuchero - 5unds.",
         "category": "Nikkei",
         "status": "active",
         "area": "Fríos",
         "time": "03:45",
-        "description": "",
+        "description": "Ebifurai, aguacate, lubina y salsa anticuchera.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -1522,13 +1522,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "nombre-nigiri-de-salmon---2unds.",
-        "name": "Nombre Nigiri de Salmón - 2unds.",
+        "id": "nigiri-de-salmon-2unds",
+        "name": "Nigiri de Salmón - 2unds.",
         "category": "Nikkei",
         "status": "active",
         "area": "Fríos",
         "time": "03:45",
-        "description": "",
+        "description": "Salsa de ají amarillo y crujientes de cebolla.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -1570,13 +1570,13 @@ const recipeData = [
         "procedure": []
     },
     {
-        "id": "nombre-nigiri-de-atun-de-almadraba---2unds.",
-        "name": "Nombre Nigiri de Atún de Almadraba - 2unds.",
+        "id": "nigiri-de-atun-de-almadraba-2unds",
+        "name": "Nigiri de Atún de Almadraba - 2unds.",
         "category": "Nikkei",
         "status": "active",
         "area": "Fríos",
         "time": "03:45",
-        "description": "",
+        "description": "Salsa acebichada y nori con salsa ponzu.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -1613,13 +1613,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "nombre-nigiri-de-lubina---2unds.",
-        "name": "Nombre Nigiri de Lubina - 2unds.",
+        "id": "nigiri-de-lubina-2unds",
+        "name": "Nigiri de Lubina - 2unds.",
         "category": "Nikkei",
         "status": "active",
         "area": "Fríos",
         "time": "03:45",
-        "description": "",
+        "description": "Salsa ponzu, trufa y sal Maldon.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -1666,13 +1666,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "nombre-acebichada",
-        "name": "Nombre Acebichada",
-        "category": "Principales",
+        "id": "acebichada",
+        "name": "Acebichada",
+        "category": "Ensaladas",
         "status": "active",
         "area": "Fríos",
         "time": "03:45",
-        "description": "",
+        "description": "Espinacas, remolacha, tomate cherry, choclo, queso de cabra y salsa de mango acebichada.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -1746,13 +1746,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "nombre-quinoa-y-endivias",
-        "name": "Nombre Quinoa y Endivias",
-        "category": "Principales",
+        "id": "quinoa-y-endivias",
+        "name": "Quinoa y Endivias",
+        "category": "Ensaladas",
         "status": "active",
         "area": "Fríos",
         "time": "03:45",
-        "description": "",
+        "description": "Quinoa negra y blanca, tomates, lascas de queso semi duro, endivias y aliño de mostaza con ají amarillo.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -1814,13 +1814,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "nombre-ostras-amelie",
-        "name": "Nombre Ostras Amelie",
-        "category": "Principales",
+        "id": "ostras-amelie",
+        "name": "Ostras Amelie",
+        "category": "Entrantes",
         "status": "active",
         "area": "Fríos",
         "time": "03:45",
-        "description": "",
+        "description": "Ostra francesa, emulsión de cilantro, huevas de trucha y leche de tigre de rocoto.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -1874,13 +1874,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "nombre-vieiras-achupetadas",
-        "name": "Nombre Vieiras achupetadas",
-        "category": "Principales",
+        "id": "vieiras-achupetadas",
+        "name": "Vieiras achupetadas",
+        "category": "Entrantes",
         "status": "active",
         "area": "Calientes",
         "time": "03:45",
-        "description": "",
+        "description": "Vieiras U10 a la robata, salsa de chupe, espuma de parmesano y huacatay.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -1929,13 +1929,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "nombre-zamburinas-acebichadas-a-la-brasa",
-        "name": "Nombre Zamburiñas acebichadas a la brasa",
-        "category": "Principales",
+        "id": "zamburinas-acebichadas-a-la-brasa",
+        "name": "Zamburiñas acebichadas a la brasa",
+        "category": "Entrantes",
         "status": "active",
         "area": "Calientes",
         "time": "03:45",
-        "description": "",
+        "description": "Leche de tigre de rocoto y ají amarillo con boniato brulée.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -1983,13 +1983,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "nombre-jalea-mixta-de-corvina-&-chipirones",
-        "name": "Nombre Jalea mixta de corvina & chipirones",
-        "category": "Principales",
+        "id": "jalea-mixta-de-corvina-chipirones",
+        "name": "Jalea mixta de corvina & chipirones",
+        "category": "Entrantes",
         "status": "active",
         "area": "Calientes",
         "time": "03:45",
-        "description": "",
+        "description": "Corvina y chipirones crujientes con leche de tigre de ají amarillo.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -2042,13 +2042,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "nombre-pulpo-al-carbon-con-majado-de-yuca",
-        "name": "Nombre Pulpo al Carbón con Majado de Yuca",
-        "category": "Principales",
+        "id": "pulpo-al-carbon-con-majado-de-yuca",
+        "name": "Pulpo al Carbón con Majado de Yuca",
+        "category": "Entrantes",
         "status": "active",
         "area": "Calientes",
         "time": "03:45",
-        "description": "",
+        "description": "Braseado al carbón, salsa anticuchera, majado de yuca, ají amarillo, aceituna de botija, choclo y edamame.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -2122,13 +2122,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "nombre-pastel-de-choclo",
-        "name": "Nombre Pastel de Choclo",
-        "category": "Principales",
+        "id": "pastel-de-choclo",
+        "name": "Pastel de Choclo",
+        "category": "Entrantes",
         "status": "active",
         "area": "Calientes",
         "time": "03:45",
-        "description": "",
+        "description": "Cremoso de maíz y ají amarillo, osobuco, boletus, jugos de estofado y espuma de parmesano.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -2176,13 +2176,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "nombre-empanadas-de-lomo-saltado",
-        "name": "Nombre Empanadas de lomo saltado",
-        "category": "Principales",
+        "id": "empanadas-de-lomo-saltado",
+        "name": "Empanadas de lomo saltado",
+        "category": "Entrantes",
         "status": "active",
         "area": "Calientes",
         "time": "03:45",
-        "description": "",
+        "description": "Masa artesanal de yuca, rellena de lomo saltado, crema de rocoto y Grana Padano.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -2219,13 +2219,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "nombre-secreto-iberico-en-salsa-anticuchera",
-        "name": "Nombre Secreto ibérico en salsa anticuchera",
-        "category": "Principales",
+        "id": "secreto-iberico-en-salsa-anticuchera",
+        "name": "Secreto ibérico en salsa anticuchera",
+        "category": "Entrantes",
         "status": "active",
         "area": "Calientes",
         "time": "03:45",
-        "description": "",
+        "description": "Secreto ibérico brasa, texturas de patata, ají carretillero, choclito brasa y crema de huacatay.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -2291,63 +2291,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "nombre-secreto-iberico-en-salsa-anticuchera",
-        "name": "Nombre Secreto ibérico en salsa anticuchera",
+        "id": "quinoto-de-hongos-trufado",
+        "name": "Quinoto de Hongos Trufado",
         "category": "Principales",
         "status": "active",
         "area": "Calientes",
         "time": "03:45",
-        "description": "",
-        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
-        "ingredients": [
-            {
-                "name": "Salsa Huancaína",
-                "umg": "Gramos",
-                "qty": 100
-            },
-            {
-                "name": "Nata para cocina",
-                "umg": "Mililitros",
-                "qty": 30
-            },
-            {
-                "name": "Tortellinni Loche",
-                "umg": "PORCION",
-                "qty": 1
-            },
-            {
-                "name": "Zapallo Loche frito",
-                "umg": "Gramos",
-                "qty": 8
-            },
-            {
-                "name": "Espuma de Parmesano",
-                "umg": "Gramos",
-                "qty": 50
-            },
-            {
-                "name": "Brotes de guisantes",
-                "umg": "Gramos",
-                "qty": 3
-            }
-        ],
-        "procedure": [
-            "1. Laminar y freir el zapallo loche. Mantener la fritura crocante.",
-            "2. En una cacerola colocar la salsa huacanina junto cobn la nata y llevar a fuego medio, dejar que tome punto, recticar sabor y reservar.",
-            "3. Cocinar los tortellinis en abUnidadante agua hivierdo por 4 minutos. Retirar del agua y reservar.",
-            "4. Sobre el plato de servicio, colocar una base de la huacaina caliente y sobre este los tortellinis. Completar con la espuma de parmesano",
-            "y parmesano rallado.",
-            "5. Decorar con los chips de loche y micro mezclum."
-        ]
-    },
-    {
-        "id": "nombre-quinoto-de-hongos-trufado",
-        "name": "Nombre Quinoto de Hongos Trufado",
-        "category": "Principales",
-        "status": "active",
-        "area": "Calientes",
-        "time": "03:45",
-        "description": "",
+        "description": "Rissotto de quinoa de ají amarillo, mix de setas salvajes, shimenji al wok y queso pecorino.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -2436,13 +2386,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "nombre-arroz-chaufa-de-mariscos",
-        "name": "Nombre Arroz Chaufa de Mariscos",
+        "id": "arroz-chaufa-de-mariscos",
+        "name": "Arroz Chaufa de Mariscos",
         "category": "Principales",
         "status": "active",
         "area": "Calientes",
         "time": "03:45",
-        "description": "",
+        "description": "Salteado al wok con pulpo, langostinos y chipirones, salsa tamarindo y alga nori.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -2542,13 +2492,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "nombre-arroz-achupetado-de-gambon-&-almejas",
-        "name": "Nombre Arroz Achupetado de Gambón & Almejas",
+        "id": "arroz-achupetado-de-gambon-almejas",
+        "name": "Arroz Achupetado de Gambón & Almejas",
         "category": "Principales",
         "status": "active",
         "area": "Calientes",
         "time": "03:45",
-        "description": "",
+        "description": "Achupetado de gambón y almejas, salsa criolla, chupe y salsa de rocoto.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -2633,13 +2583,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "nombre-arroz-con-pato",
-        "name": "Nombre Arroz con Pato",
+        "id": "arroz-con-pato",
+        "name": "Arroz con Pato",
         "category": "Principales",
         "status": "active",
         "area": "Calientes",
         "time": "03:45",
-        "description": "",
+        "description": "Meloso de cilantro y zapallo loche con magret de pato ahumado, crema de rocoto y huevo de codorníz.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -2726,13 +2676,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "nombre-aji-de-gallina",
-        "name": "Nombre Ají de Gallina",
+        "id": "aji-de-gallina",
+        "name": "Ají de Gallina",
         "category": "Principales",
         "status": "active",
         "area": "Calientes",
         "time": "03:45",
-        "description": "",
+        "description": "Pollo de corral, salsa de ají amarillo, huevo de codorníz, patata amarilla, grana padano y arroz con choclo.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -2796,13 +2746,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "nombre-lomo-saltado",
-        "name": "Nombre Lomo saltado",
+        "id": "lomo-saltado",
+        "name": "Lomo saltado",
         "category": "Principales",
         "status": "active",
         "area": "Calientes",
         "time": "03:45",
-        "description": "",
+        "description": "Solomillo salteado al wok, cebolla morada, tomate cherry, patatas criollas y arroz con choclo.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -2881,13 +2831,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "nombre-seco-de-asado-de-tira-angus",
-        "name": "Nombre Seco de Asado de Tira Angus",
+        "id": "seco-de-asado-de-tira-angus",
+        "name": "Seco de Asado de Tira Angus",
         "category": "Principales",
         "status": "active",
         "area": "Calientes",
         "time": "03:45",
-        "description": "",
+        "description": "Cocido a baja temperatura con sabores de seco norteño, texturas de pallares y arroz arvejado.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -2953,13 +2903,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "nombre-salmon-a-la-brasa",
-        "name": "Nombre Salmón a la brasa",
+        "id": "salmon-a-la-brasa",
+        "name": "Salmón a la brasa",
         "category": "Principales",
         "status": "active",
         "area": "Calientes",
         "time": "03:45",
-        "description": "",
+        "description": "Salmón a la brasa, beurre blanc de ají amarillo y ponzu, bimi rostizada, trompetas de la muerte y shimeji.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -3032,13 +2982,13 @@ const recipeData = [
         ]
     },
     {
-        "id": "nombre-lubina-a-la-chorrillana",
-        "name": "Nombre Lubina a la Chorrillana",
+        "id": "lubina-a-la-chorrillana",
+        "name": "Lubina a la Chorrillana",
         "category": "Principales",
         "status": "active",
         "area": "Calientes",
         "time": "03:45",
-        "description": "",
+        "description": "Lubina de anzuelo a la brasa, salsa chorrillana y verduras al wok.",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
@@ -3130,10 +3080,10 @@ const recipeData = [
         "procedure": []
     },
     {
-        "id": "nombre-noquis-y-presa-iberica",
-        "name": "Nombre Ñoquis y presa iberica",
+        "id": "noquis-y-presa-iberica",
+        "name": "Ñoquis y presa iberica",
         "category": "Principales",
-        "status": "active",
+        "status": "archived",
         "area": "Calientes",
         "time": "03:45",
         "description": "",
@@ -3193,10 +3143,10 @@ const recipeData = [
         "procedure": []
     },
     {
-        "id": "nombre-osobuco",
-        "name": "Nombre Osobuco",
+        "id": "osobuco",
+        "name": "Osobuco",
         "category": "Principales",
-        "status": "active",
+        "status": "archived",
         "area": "Calientes",
         "time": "03:45",
         "description": "",

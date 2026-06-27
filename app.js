@@ -146,9 +146,11 @@ document.addEventListener('DOMContentLoaded', () => {
     function generateGridHTML(recipes) {
         return recipes.map(recipe => {
             const desc = recipe.description || (typeof menuDescriptions !== 'undefined' ? menuDescriptions[recipe.id] : '');
+            const isSubrecipe = currentMode === 'subrecipes';
+            
             return `
-            <div class="recipe-card" data-id="${recipe.id}">
-                <img src="fotos/${recipe.id}.jpg" onerror="this.onerror=null; this.src='LOGO GQ.png';" alt="${recipe.name}" class="card-img" loading="lazy">
+            <div class="recipe-card ${isSubrecipe ? 'subrecipe-card' : ''}" data-id="${recipe.id}">
+                ${!isSubrecipe ? `<img src="fotos/${recipe.id}.jpg" onerror="this.onerror=null; this.src='LOGO GQ.png';" alt="${recipe.name}" class="card-img" loading="lazy">` : ''}
                 <div class="card-content">
                     <div class="card-category">${recipe.category}</div>
                     <div class="card-title">${recipe.name}</div>
@@ -203,10 +205,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const numIngredientes = currentRecipe.ingredients ? currentRecipe.ingredients.length : 0;
         const desc = currentRecipe.description || (typeof menuDescriptions !== 'undefined' ? menuDescriptions[currentRecipe.id] : '');
+        const isSubrecipe = modalHistory[modalHistory.length - 1].sourceMode === 'subrecipes';
 
         recipeDetailContainer.innerHTML = `
             <div class="recipe-header-container">
-                <img src="fotos/${currentRecipe.id}.jpg" onerror="this.onerror=null; this.src='LOGO GQ.png';" class="recipe-detail-img" alt="${currentRecipe.name}">
+                ${!isSubrecipe ? `<img src="fotos/${currentRecipe.id}.jpg" onerror="this.onerror=null; this.src='LOGO GQ.png';" class="recipe-detail-img" alt="${currentRecipe.name}">` : ''}
                 
                 <div class="recipe-header-info">
                     <div class="card-category">${currentRecipe.category}</div>
@@ -214,19 +217,28 @@ document.addEventListener('DOMContentLoaded', () => {
                     ${desc ? `<p class="recipe-detail-desc">${desc}</p>` : ''}
                     
                     <div class="recipe-meta-grid">
+                        ${!isSubrecipe ? `
                         <div class="meta-item">
                             <span class="meta-label"><i class="ph ph-cooking-pot"></i> Área</span>
                             <span class="meta-value">${currentRecipe.area || 'Fríos'}</span>
                         </div>
                         <div class="meta-item">
-                            <span class="meta-label"><i class="ph ph-scales"></i> Ingredientes</span>
-                            <span class="meta-value">${numIngredientes}</span>
-                        </div>
-                        <div class="meta-item">
                             <span class="meta-label"><i class="ph ph-clock"></i> Tiempo</span>
                             <span class="meta-value">${currentRecipe.time || '00:00'} min</span>
                         </div>
+                        ` : `
+                        <div class="meta-item">
+                            <span class="meta-label"><i class="ph ph-chart-pie-slice"></i> Rendimiento</span>
+                            <span class="meta-value">${currentRecipe.yield || '-'}</span>
+                        </div>
+                        `}
+                        <div class="meta-item">
+                            <span class="meta-label"><i class="ph ph-scales"></i> Ingredientes</span>
+                            <span class="meta-value">${numIngredientes}</span>
+                        </div>
                     </div>
+                    
+                    <button class="print-btn" onclick="window.print()"><i class="ph ph-printer"></i> Exportar a PDF</button>
                 </div>
             </div>
             

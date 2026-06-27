@@ -8,7 +8,7 @@ const recipeData = [
         "area": "Fríos",
         "time": "03:45",
         "description": "",
-        "image": "https:
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
                 "name": "Boniato glaseado",

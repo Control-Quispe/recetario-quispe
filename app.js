@@ -24,6 +24,32 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentRecipe = null;
     let activeCategory = 'Todas';
     
+    // Web App integration
+    const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxhk7rlgvKW2kUsoYKvjpOvgnJyvWtDmXpgSiKH92Vprdi2jkUPEElARObSCetNCBOGWw/exec";
+    let liveSubRecipeData = null;
+    let isFetchingSubrecipes = false;
+
+    function fetchLiveSubrecipes() {
+        if (isFetchingSubrecipes || liveSubRecipeData) return;
+        isFetchingSubrecipes = true;
+        fetch(WEB_APP_URL)
+            .then(res => res.json())
+            .then(data => {
+                if (Array.isArray(data) && data.length > 0) {
+                    liveSubRecipeData = data;
+                    if (currentMode === 'subrecipes') {
+                        renderCategories();
+                        filterRecipes();
+                    }
+                }
+            })
+            .catch(err => console.error("Error fetching subrecipes", err))
+            .finally(() => isFetchingSubrecipes = false);
+    }
+
+    // Iniciar fetch en segundo plano
+    fetchLiveSubrecipes();
+    
     // Helper para normalizar texto
     function normalizeText(text) {
         if (!text) return '';
@@ -45,7 +71,10 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.value = '';
         
         if (mode === 'recipes') viewTitleBadge.innerText = 'La Carta';
-        else if (mode === 'subrecipes') viewTitleBadge.innerText = 'Subrecetas';
+        else if (mode === 'subrecipes') {
+            viewTitleBadge.innerText = 'Subrecetas';
+            fetchLiveSubrecipes();
+        }
         else if (mode === 'archive') viewTitleBadge.innerText = 'Archivo Histórico';
         
         homeView.classList.remove('active-view');
@@ -67,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else if (currentMode === 'archive') {
             return recipeData.filter(r => r.status === 'archived');
         } else {
-            return subRecipeData;
+            return liveSubRecipeData || subRecipeData;
         }
     }
 
@@ -94,6 +123,11 @@ document.addEventListener('DOMContentLoaded', () => {
     function filterRecipes() {
         const searchTerm = normalizeText(searchInput.value);
         const data = getCurrentData();
+        
+        if (currentMode === 'subrecipes' && isFetchingSubrecipes && !liveSubRecipeData) {
+            recipeGrid.innerHTML = '<div style="text-align:center; padding: 40px; color:var(--text-secondary);">Cargando subrecetas desde Google Sheets...</div>';
+            return;
+        }
         
         const filtered = data.filter(recipe => {
             const matchesCategory = activeCategory === 'Todas' || recipe.category === activeCategory;

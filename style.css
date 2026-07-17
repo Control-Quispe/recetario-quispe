@@ -641,3 +641,59 @@ main {
         aspect-ratio: 16/9;
     }
 }
+
+
+/* CSS para Subrecetas */
+.subrecipe-card {
+    padding: 1rem;
+    background: var(--card-bg);
+    border-radius: var(--radius);
+    text-align: center;
+    border-left: 4px solid var(--accent);
+}
+.subrecipe-link {
+    color: var(--accent);
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.subrecipe-link:hover {
+    color: var(--primary);
+}
+
+.print-btn {
+    margin-top: 1.5rem;
+    padding: 0.8rem 1.5rem;
+    background: var(--bg-color);
+    color: var(--text-primary);
+    border: 2px solid var(--border-color);
+    border-radius: var(--radius);
+    cursor: pointer;
+    font-weight: 600;
+    transition: var(--transition);
+}
+.print-btn:hover {
+    background: var(--border-color);
+}
+
+/* Print CSS */
+@media print {
+    body * {
+        visibility: hidden;
+    }
+    .modal-content, .modal-content * {
+        visibility: visible;
+    }
+    .modal-content {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+    }
+    .print-btn, .close-modal, .scaler {
+        display: none !important;
+    }
+}

@@ -24,6 +24,32 @@ document.addEventListener('DOMContentLoaded', () => {
     let currentRecipe = null;
     let activeCategory = 'Todas';
     
+    // Web App integration
+    const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxhk7rlgvKW2kUsoYKvjpOvgnJyvWtDmXpgSiKH92Vprdi2jkUPEElARObSCetNCBOGWw/exec";
+    let liveSubRecipeData = null;
+    let isFetchingSubrecipes = false;
+
+    function fetchLiveSubrecipes() {
+        if (isFetchingSubrecipes || liveSubRecipeData) return;
+        isFetchingSubrecipes = true;
+        fetch(WEB_APP_URL)
+            .then(res => res.json())
+            .then(data => {
+                if (Array.isArray(data) && data.length > 0) {
+                    liveSubRecipeData = data;
+                    if (currentMode === 'subrecipes') {
+                        renderCategories();
+                        filterRecipes();
+                    }
+                }
+            })
+            .catch(err => console.error("Error fetching subrecipes", err))
+            .finally(() => isFetchingSubrecipes = false);
+    }
+
+    // Iniciar fetch en segundo plano
+    fetchLiveSubrecipes();
+    
     // Helper para normalizar texto
     function normalizeText(text) {
         if (!text) return '';
@@ -45,7 +71,10 @@ document.addEventListener('DOMContentLoaded', () => {
         searchInput.value = '';
         
         if (mode === 'recipes') viewTitleBadge.innerText = 'La Carta';
-        else if (mode === 'subrecipes') viewTitleBadge.innerText = 'Subrecetas';
+        else if (mode === 'subrecipes') {
+            viewTitleBadge.innerText = 'Subrecetas';
+            fetchLiveSubrecipes();
+        }
         else if (mode === 'archive') viewTitleBadge.innerText = 'Archivo Histórico';
         
         homeView.classList.remove('active-view');
@@ -67,7 +96,7 @@ document.addEventListener('DOMContentLoaded', () => {
         } else if (currentMode === 'archive') {
             return recipeData.filter(r => r.status === 'archived');
         } else {
-            return subRecipeData;
+            return liveSubRecipeData || subRecipeData;
         }
     }
 
@@ -94,6 +123,11 @@ document.addEventListener('DOMContentLoaded', () => {
     function filterRecipes() {
         const searchTerm = normalizeText(searchInput.value);
         const data = getCurrentData();
+        
+        if (currentMode === 'subrecipes' && isFetchingSubrecipes && !liveSubRecipeData) {
+            recipeGrid.innerHTML = '<div style="text-align:center; padding: 40px; color:var(--text-secondary);">Cargando subrecetas desde Google Sheets...</div>';
+            return;
+        }
         
         const filtered = data.filter(recipe => {
             const matchesCategory = activeCategory === 'Todas' || recipe.category === activeCategory;
@@ -146,9 +180,11 @@ document.addEventListener('DOMContentLoaded', () => {
     function generateGridHTML(recipes) {
         return recipes.map(recipe => {
             const desc = recipe.description || (typeof menuDescriptions !== 'undefined' ? menuDescriptions[recipe.id] : '');
+            const isSubrecipe = currentMode === 'subrecipes';
+            
             return `
-            <div class="recipe-card" data-id="${recipe.id}">
-                <img src="fotos/${recipe.id}.jpg" onerror="this.onerror=null; this.src='LOGO GQ.png';" alt="${recipe.name}" class="card-img" loading="lazy">
+            <div class="recipe-card ${isSubrecipe ? 'subrecipe-card' : ''}" data-id="${recipe.id}">
+                ${!isSubrecipe ? `<img src="fotos/${recipe.id}.jpg" onerror="this.onerror=null; this.src='LOGO GQ.png';" alt="${recipe.name}" class="card-img" loading="lazy">` : ''}
                 <div class="card-content">
                     <div class="card-category">${recipe.category}</div>
                     <div class="card-title">${recipe.name}</div>
@@ -203,10 +239,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const numIngredientes = currentRecipe.ingredients ? currentRecipe.ingredients.length : 0;
         const desc = currentRecipe.description || (typeof menuDescriptions !== 'undefined' ? menuDescriptions[currentRecipe.id] : '');
+        const isSubrecipe = modalHistory[modalHistory.length - 1].sourceMode === 'subrecipes';
 
         recipeDetailContainer.innerHTML = `
             <div class="recipe-header-container">
-                <img src="fotos/${currentRecipe.id}.jpg" onerror="this.onerror=null; this.src='LOGO GQ.png';" class="recipe-detail-img" alt="${currentRecipe.name}">
+                ${!isSubrecipe ? `<img src="fotos/${currentRecipe.id}.jpg" onerror="this.onerror=null; this.src='LOGO GQ.png';" class="recipe-detail-img" alt="${currentRecipe.name}">` : ''}
                 
                 <div class="recipe-header-info">
                     <div class="card-category">${currentRecipe.category}</div>
@@ -214,19 +251,28 @@ document.addEventListener('DOMContentLoaded', () => {
                     ${desc ? `<p class="recipe-detail-desc">${desc}</p>` : ''}
                     
                     <div class="recipe-meta-grid">
+                        ${!isSubrecipe ? `
                         <div class="meta-item">
                             <span class="meta-label"><i class="ph ph-cooking-pot"></i> Área</span>
                             <span class="meta-value">${currentRecipe.area || 'Fríos'}</span>
                         </div>
                         <div class="meta-item">
-                            <span class="meta-label"><i class="ph ph-scales"></i> Ingredientes</span>
-                            <span class="meta-value">${numIngredientes}</span>
-                        </div>
-                        <div class="meta-item">
                             <span class="meta-label"><i class="ph ph-clock"></i> Tiempo</span>
                             <span class="meta-value">${currentRecipe.time || '00:00'} min</span>
                         </div>
+                        ` : `
+                        <div class="meta-item">
+                            <span class="meta-label"><i class="ph ph-chart-pie-slice"></i> Rendimiento</span>
+                            <span class="meta-value">${currentRecipe.yield || '-'}</span>
+                        </div>
+                        `}
+                        <div class="meta-item">
+                            <span class="meta-label"><i class="ph ph-scales"></i> Ingredientes</span>
+                            <span class="meta-value">${numIngredientes}</span>
+                        </div>
                     </div>
+                    
+                    <button class="print-btn" onclick="window.print()"><i class="ph ph-printer"></i> Exportar a PDF</button>
                 </div>
             </div>
             

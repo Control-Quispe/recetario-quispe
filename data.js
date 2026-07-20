@@ -1597,7 +1597,12 @@ const recipeData = [
                 "qty": 32
             }
         ],
-        "procedure": []
+        "procedure": [
+            "1. Con el arroz shari, armar la base del nigiri ( 2 unid por porción)",
+            "2. Cubrir las porciones de arroz con una lamina de salmón noruego.",
+            "3. Con una brocha de cocina, pintar el atun con salsa ponzu.",
+            "4. Decorar con la emulsiòn de salsa de ajì amarillo, cebolla frita y papel de tapioca morado."
+        ]
     },
     {
         "id": "nombre-nigiri-de-atun-de-almadraba---2unds.",

@@ -676,24 +676,166 @@ main {
     background: var(--border-color);
 }
 
+/* --- LIGHT THEME --- */
+body.light-theme {
+    --bg-dark: #f8f9fa; 
+    --bg-card: #ffffff; 
+    --bg-modal: #f8f9fa; 
+    --text-primary: #1a1a1a; 
+    --text-secondary: #4b5563; 
+    --border-color: #e5e7eb; 
+}
+
+/* --- MULTI-PRINT SELECTION UI --- */
+.search-bar-container {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+.search-bar-container .search-bar {
+    flex-grow: 1;
+}
+.toggle-selection-btn {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border-color);
+    color: var(--text-secondary);
+    border-radius: 12px;
+    padding: 0 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition);
+}
+.toggle-selection-btn:hover {
+    color: var(--text-primary);
+}
+.toggle-selection-btn.active {
+    background-color: var(--accent);
+    color: var(--bg-dark);
+    border-color: var(--accent);
+}
+
+.theme-toggle-global {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: var(--bg-card);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+.recipe-card.selected-for-print {
+    border: 2px solid var(--accent);
+    position: relative;
+}
+.recipe-card.selected-for-print::after {
+    content: '\2713'; /* Checkmark */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: var(--accent);
+    color: var(--bg-dark);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.floating-print-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: var(--accent);
+    color: var(--bg-dark);
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    display: none;
+    align-items: center;
+    gap: 8px;
+    box-shadow: 0 4px 15px rgba(245, 158, 11, 0.4);
+    cursor: pointer;
+    z-index: 1000;
+}
+.floating-print-btn.show {
+    display: flex;
+}
+
 /* Print CSS */
 @media print {
     body * {
         visibility: hidden;
     }
-    .modal-content, .modal-content * {
+    #printContainer, #printContainer * {
         visibility: visible;
     }
-    .modal-content {
+    #printContainer {
         position: absolute;
         left: 0;
         top: 0;
         width: 100%;
-        margin: 0;
+        color: #000 !important;
+        background: #fff !important;
         padding: 0;
-        box-shadow: none;
+        margin: 0;
     }
-    .print-btn, .close-modal, .scaler {
-        display: none !important;
+    
+    .print-recipe-block {
+        page-break-inside: avoid;
+        margin-bottom: 2rem;
+        border-bottom: 1px dashed #ccc;
+        padding-bottom: 2rem;
+        font-family: Arial, sans-serif;
+    }
+    .print-recipe-block h1 {
+        text-align: center;
+        font-size: 1.8rem;
+        margin-bottom: 5px;
+    }
+    .print-recipe-block .meta {
+        text-align: center;
+        font-size: 1rem;
+        color: #555;
+        margin-bottom: 1rem;
+    }
+    .print-recipe-block h3 {
+        margin-top: 1.5rem;
+        border-bottom: 1px solid #000;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+    }
+    .print-recipe-block table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 1rem;
+        font-size: 0.9rem;
+    }
+    .print-recipe-block th, .print-recipe-block td {
+        border: 1px solid #ccc;
+        padding: 6px;
+        text-align: left;
+    }
+    .print-recipe-block ol {
+        margin-left: 20px;
+        font-size: 0.95rem;
+    }
+    .print-recipe-block li {
+        margin-bottom: 6px;
     }
 }

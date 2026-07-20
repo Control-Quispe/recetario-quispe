@@ -5,11 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Biblia de Recetas | Restaurante Quispe</title>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css?v=5">
+    <link rel="stylesheet" href="style.css?v=8">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 <body>
     <div id="app">
+        <!-- Theme Toggle Flotante -->
+        <button id="themeToggleBtn" class="theme-toggle-global">
+            <i class="ph ph-sun"></i>
+        </button>
+
         <!-- VISTA: HOME -->
         <div id="homeView" class="view active-view">
             <div class="home-container">
@@ -53,9 +58,14 @@
                     <div class="view-title-badge" id="viewTitleBadge">Recetas</div>
                 </div>
                 
-                <div class="search-bar">
-                    <i class="ph ph-magnifying-glass"></i>
-                    <input type="text" id="searchInput" placeholder="Buscar receta o ingrediente...">
+                <div class="search-bar-container">
+                    <div class="search-bar">
+                        <i class="ph ph-magnifying-glass"></i>
+                        <input type="text" id="searchInput" placeholder="Buscar receta o ingrediente...">
+                    </div>
+                    <button id="btnToggleSelection" class="toggle-selection-btn" title="Activar selección para imprimir">
+                        <i class="ph ph-check-square-offset"></i>
+                    </button>
                 </div>
                 <div class="categories" id="categoryFilters">
                     <!-- Se llenará dinámicamente -->
@@ -81,11 +91,18 @@
                 </div>
             </div>
         </div>
+        <!-- BOTÓN FLOTANTE PARA IMPRIMIR -->
+        <button id="fabPrint" class="floating-print-btn">
+            <i class="ph ph-printer"></i> Imprimir (<span id="printCount">0</span>)
+        </button>
     </div>
 
+    <!-- CONTENEDOR OCULTO PARA IMPRESIÓN -->
+    <div id="printContainer" class="print-only"></div>
+
     <!-- Cargar los datos y la lógica de la app -->
-    <script src="descriptions.js?v=7"></script>
-    <script src="data.js?v=7"></script>
-    <script src="app.js?v=7"></script>
+    <script src="descriptions.js?v=8"></script>
+    <script src="data.js?v=8"></script>
+    <script src="app.js?v=8"></script>
 </body>
 </html>

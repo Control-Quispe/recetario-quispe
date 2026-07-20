@@ -17,12 +17,34 @@ document.addEventListener('DOMContentLoaded', () => {
     const recipeModal = document.getElementById('recipeModal');
     const closeModalBtn = document.getElementById('closeModalBtn');
     const recipeDetailContainer = document.getElementById('recipeDetailContainer');
+    
+    const btnToggleSelection = document.getElementById('btnToggleSelection');
+    const fabPrint = document.getElementById('fabPrint');
+    const printCountSpan = document.getElementById('printCount');
+    const printContainer = document.getElementById('printContainer');
+    const themeToggleBtn = document.getElementById('themeToggleBtn');
+
+    // --- THEME ---
+    if (localStorage.getItem('theme') === 'light') {
+        document.body.classList.add('light-theme');
+        if(themeToggleBtn) themeToggleBtn.innerHTML = '<i class="ph ph-moon"></i>';
+    }
+    if (themeToggleBtn) {
+        themeToggleBtn.addEventListener('click', () => {
+            document.body.classList.toggle('light-theme');
+            const isLight = document.body.classList.contains('light-theme');
+            localStorage.setItem('theme', isLight ? 'light' : 'dark');
+            themeToggleBtn.innerHTML = isLight ? '<i class="ph ph-moon"></i>' : '<i class="ph ph-sun"></i>';
+        });
+    }
 
     // State
     let currentMode = 'recipes'; // 'recipes', 'subrecipes', or 'archive'
     let currentScale = 1;
     let currentRecipe = null;
     let activeCategory = 'Todas';
+    let isSelectionMode = false;
+    let selectedForPrint = [];
     
     // Web App integration
     const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxhk7rlgvKW2kUsoYKvjpOvgnJyvWtDmXpgSiKH92Vprdi2jkUPEElARObSCetNCBOGWw/exec";
@@ -88,6 +110,86 @@ document.addEventListener('DOMContentLoaded', () => {
     btnGoToSubrecipes.addEventListener('click', () => showCatalog('subrecipes'));
     btnGoToArchive.addEventListener('click', () => showCatalog('archive'));
     btnBackToHome.addEventListener('click', showHome);
+
+    // --- PRINT SELECTION ---
+    if (btnToggleSelection) {
+        btnToggleSelection.addEventListener('click', () => {
+            isSelectionMode = !isSelectionMode;
+            btnToggleSelection.classList.toggle('active', isSelectionMode);
+            if (!isSelectionMode) {
+                selectedForPrint = [];
+                updateFloatingPrintBtn();
+                renderGrid(getCurrentData()); 
+            }
+        });
+    }
+
+    function updateFloatingPrintBtn() {
+        if (!fabPrint) return;
+        if (selectedForPrint.length > 0) {
+            fabPrint.classList.add('show');
+            printCountSpan.innerText = selectedForPrint.length;
+        } else {
+            fabPrint.classList.remove('show');
+        }
+    }
+
+    if (fabPrint) {
+        fabPrint.addEventListener('click', () => {
+            generateMultiPrintHTML();
+            window.print();
+        });
+    }
+
+    function generateMultiPrintHTML() {
+        if (!printContainer) return;
+        let html = '';
+        selectedForPrint.forEach(id => {
+            let recipe = recipeData.find(r => r.id === id);
+            if (!recipe && typeof subRecipeData !== 'undefined') recipe = subRecipeData.find(r => r.id === id);
+            if (!recipe && liveSubRecipeData) recipe = liveSubRecipeData.find(r => r.id === id);
+            if (!recipe) return;
+            
+            const numIngredientes = recipe.ingredients ? recipe.ingredients.length : 0;
+            const desc = recipe.description || (typeof menuDescriptions !== 'undefined' ? menuDescriptions[recipe.id] : '');
+
+            html += `
+                <div class="print-recipe-block">
+                    <h1>${recipe.name}</h1>
+                    <div class="meta">
+                        Categoría: ${recipe.category} ${recipe.area ? `| Área: ${recipe.area}` : ''} | Tiempo: ${recipe.time || 'N/A'}
+                    </div>
+                    ${desc ? `<p style="text-align:center; font-style:italic; margin-bottom: 1rem;">${desc}</p>` : ''}
+                    
+                    <h3>Ingredientes (${numIngredientes})</h3>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Ingrediente</th>
+                                <th>UMG</th>
+                                <th>Cantidad</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${(recipe.ingredients || []).map(ing => `
+                                <tr>
+                                    <td>${ing.name}</td>
+                                    <td>${ing.umg}</td>
+                                    <td>${(ing.qty * 1).toFixed(2).replace(/\.00$/, '')}</td>
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                    </table>
+
+                    <h3>Procedimiento</h3>
+                    <ol>
+                        ${(recipe.procedure || []).map(step => `<li>${step}</li>`).join('')}
+                    </ol>
+                </div>
+            `;
+        });
+        printContainer.innerHTML = html;
+    }
 
     // --- CATÁLOGO ---
     function getCurrentData() {
@@ -172,7 +274,18 @@ document.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll('.recipe-card').forEach(card => {
             card.addEventListener('click', () => {
                 const id = card.getAttribute('data-id');
-                openRecipe(id, currentMode);
+                if (isSelectionMode) {
+                    if (selectedForPrint.includes(id)) {
+                        selectedForPrint = selectedForPrint.filter(rId => rId !== id);
+                        card.classList.remove('selected-for-print');
+                    } else {
+                        selectedForPrint.push(id);
+                        card.classList.add('selected-for-print');
+                    }
+                    updateFloatingPrintBtn();
+                } else {
+                    openRecipe(id, currentMode);
+                }
             });
         });
     }
@@ -181,9 +294,10 @@ document.addEventListener('DOMContentLoaded', () => {
         return recipes.map(recipe => {
             const desc = recipe.description || (typeof menuDescriptions !== 'undefined' ? menuDescriptions[recipe.id] : '');
             const isSubrecipe = currentMode === 'subrecipes';
+            const isSelected = selectedForPrint.includes(recipe.id);
             
             return `
-            <div class="recipe-card ${isSubrecipe ? 'subrecipe-card' : ''}" data-id="${recipe.id}">
+            <div class="recipe-card ${isSubrecipe ? 'subrecipe-card' : ''} ${isSelected ? 'selected-for-print' : ''}" data-id="${recipe.id}">
                 ${!isSubrecipe ? `<img src="fotos/${recipe.id}.jpg" onerror="this.onerror=null; this.src='LOGO GQ.png';" alt="${recipe.name}" class="card-img" loading="lazy">` : ''}
                 <div class="card-content">
                     <div class="card-category">${recipe.category}</div>
@@ -272,7 +386,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         </div>
                     </div>
                     
-                    <button class="print-btn" onclick="window.print()"><i class="ph ph-printer"></i> Exportar a PDF</button>
+                    <button class="print-btn" id="btnSinglePrint"><i class="ph ph-printer"></i> Exportar a PDF</button>
                 </div>
             </div>
             
@@ -310,6 +424,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
         document.getElementById('btnMinus').addEventListener('click', () => updateScale(-0.5));
         document.getElementById('btnPlus').addEventListener('click', () => updateScale(0.5));
+
+        const btnSinglePrint = document.getElementById('btnSinglePrint');
+        if (btnSinglePrint) {
+            btnSinglePrint.addEventListener('click', () => {
+                const prevSelection = [...selectedForPrint];
+                selectedForPrint = [currentRecipe.id];
+                generateMultiPrintHTML();
+                window.print();
+                selectedForPrint = prevSelection; // Restore selection
+            });
+        }
 
         document.querySelectorAll('.step').forEach(stepEl => {
             stepEl.addEventListener('click', () => stepEl.classList.toggle('completed'));

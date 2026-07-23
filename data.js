@@ -1,4 +1,4 @@
-﻿ï»¿// data.js
+﻿// data.js
 const recipeData = [
     {
         "id": "cebiche-clasico",
@@ -1601,7 +1601,7 @@ const recipeData = [
             "1. Con el arroz shari, armar la base del nigiri ( 2 unid por porción)",
             "2. Cubrir las porciones de arroz con una lamina de salmón noruego.",
             "3. Con una brocha de cocina, pintar el atun con salsa ponzu.",
-            "4. Decorar con la emulsiÃ²n de salsa de ajÃ¬ amarillo, cebolla frita y papel de tapioca morado."
+            "4. Decorar con la emulsiòn de salsa de ajì amarillo, cebolla frita y papel de tapioca morado."
         ]
     },
     {
@@ -1697,7 +1697,7 @@ const recipeData = [
             "1. Con el arroz shari, armar la base del nigiri ( 2 unid por porción)",
             "2. Cubrir las porciones de arroz con una lamina de salmón noruego.",
             "3. Con una brocha de cocina, pintar el atun con salsa ponzu.",
-            "4. Decorar con la emulsiÃ²n de salsa de ajÃ¬ amarillo, cebolla frita y papel de tapioca morado."
+            "4. Decorar con la emulsiòn de salsa de ajì amarillo, cebolla frita y papel de tapioca morado."
         ]
     },
     {
@@ -2013,7 +2013,7 @@ const recipeData = [
             "1. Sobre la robataa, asar las zamburiñas.",
             "2. Calentar el plato de servicio con piedras.",
             "3. Distribuir las zamburiñas braseadas sobre el plato.",
-            "4. Colocar sobe cada porcion, leche de tigre de rocoto y ajÃ¬ amarillo.",
+            "4. Colocar sobe cada porcion, leche de tigre de rocoto y ajì amarillo.",
             "5. Colocar un punto de pure de boniato sobre cada zamburiña y decorar con quinua pop y micro mezclum."
         ]
     },
@@ -2069,7 +2069,7 @@ const recipeData = [
             }
         ],
         "procedure": [
-            "1. En un bowl colocar el aderezo de fritura y huevo, sazonar y mezclar. Agregar la porciÃ²n de chicharrón y mezclar.",
+            "1. En un bowl colocar el aderezo de fritura y huevo, sazonar y mezclar. Agregar la porciòn de chicharrón y mezclar.",
             "2. Retirar el excedente de liquidos y pasar a un bowl con harina y empanizar. Retirar el excendente de harina",
             "3. Freir por 3 minutos. Escurrir el aceite y reservar.",
             "4. Sobre el plato de servicio, colocar una base de papel manteca con logo y sobre este colocar la porción de fritura.",
@@ -2203,7 +2203,7 @@ const recipeData = [
             }
         ],
         "procedure": [
-            "1. Calentar la porción de pastel de choclo en horno precalentado a 180ÂªC por 6 minutos.",
+            "1. Calentar la porción de pastel de choclo en horno precalentado a 180ªC por 6 minutos.",
             "2. Marchar en una cacerola el morcillo junto con una parte dela salsa de cochinillo. Aparte tener caliente la otra parte de la salsa.",
             "3, Para emplatar, colocar sobre el plato el pastel caliente y cubrir con el morcillo caliente.",
             "4. Cubrir con la espuma de parmesano y decorar con micro mezclum.",
@@ -2322,10 +2322,25 @@ const recipeData = [
             "5. Freir las hojas de huacatay y reservar.",
             "6. Colocar sobre el plato de servicio las patatas rostizadas y sobre esta colocar las porciones de secreto iberico. Sobre esta,",
             "colocar el choclo bebe, queso parmesano rallado y decorar con las hojas de huacatay frita.",
-            "7. Decorar con puntos de alioli de rocoto y ajÃ¬ amarillo."
+            "7. Decorar con puntos de alioli de rocoto y ajì amarillo."
         ]
     },
     {
+        "id": "secreto-iberico-en-salsa-anticuchera",
+        "name": "Secreto ibérico en salsa anticuchera",
+        "category": "Entrantes",
+        "status": "active",
+        "area": "Calientes",
+        "time": "06:00",
+        "description": "",
+        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
+        "ingredients": [
+            {
+                "name": "Salsa Huancaína",
+                "umg": "Gramos",
+                "qty": 100
+            },
+            {
                 "name": "Nata para cocina",
                 "umg": "Mililitros",
                 "qty": 30
@@ -3277,7 +3292,7 @@ const subRecipeData = [
     {
         "id": "mouse-de-aguacate",
         "name": "Mouse de aguacate",
-        "category": "Frío-nikkei",
+        "category": "Fr├¡o-nikkei",
         "yield": 640.0,
         "ingredients": [
             {
@@ -3291,7 +3306,7 @@ const subRecipeData = [
                 "qty": 60.0
             },
             {
-                "name": "Limón marinado",
+                "name": "Lim├│n marinado",
                 "umg": "ML",
                 "qty": 60.0
             },
@@ -3313,7 +3328,7 @@ const subRecipeData = [
     {
         "id": "salsa-acevichada",
         "name": "Salsa acevichada",
-        "category": "Frío-nikkei",
+        "category": "Fr├¡o-nikkei",
         "yield": 5470.0,
         "ingredients": [
             {
@@ -3327,7 +3342,7 @@ const subRecipeData = [
                 "qty": 250.0
             },
             {
-                "name": "Limón marinado",
+                "name": "Lim├│n marinado",
                 "umg": "ML",
                 "qty": 300.0
             },
@@ -3367,7 +3382,7 @@ const subRecipeData = [
     {
         "id": "salsa-vinicunka",
         "name": "Salsa vinicunka",
-        "category": "Frío-nikkei",
+        "category": "Fr├¡o-nikkei",
         "yield": 5260.0,
         "ingredients": [
             {
@@ -3396,12 +3411,12 @@ const subRecipeData = [
                 "qty": 180.0
             },
             {
-                "name": "Limón marinado",
+                "name": "Lim├│n marinado",
                 "umg": "ML",
                 "qty": 50.0
             },
             {
-                "name": "Pimentón dulce",
+                "name": "Piment├│n dulce",
                 "umg": "GR",
                 "qty": 80.0
             }
@@ -3429,7 +3444,7 @@ const subRecipeData = [
                 "qty": 0
             },
             {
-                "name": "Limón marinado",
+                "name": "Lim├│n marinado",
                 "umg": "GR",
                 "qty": 1100.0
             },
@@ -3478,7 +3493,7 @@ const subRecipeData = [
     {
         "id": "espuma-de-rocoto",
         "name": "Espuma de rocoto",
-        "category": "Frío-nikkei",
+        "category": "Fr├¡o-nikkei",
         "yield": 432.0,
         "ingredients": [
             {
@@ -3487,7 +3502,7 @@ const subRecipeData = [
                 "qty": 227.0
             },
             {
-                "name": "Limón marinado",
+                "name": "Lim├│n marinado",
                 "umg": "ML",
                 "qty": 64.0
             },
@@ -3534,8 +3549,8 @@ const subRecipeData = [
     },
     {
         "id": "reduccion-de-maracuya",
-        "name": "Reducción de maracuya",
-        "category": "Frío-nikkei",
+        "name": "Reducci├│n de maracuya",
+        "category": "Fr├¡o-nikkei",
         "yield": 853.0,
         "ingredients": [
             {
@@ -3544,7 +3559,7 @@ const subRecipeData = [
                 "qty": 1000.0
             },
             {
-                "name": "Azúcar blanco",
+                "name": "Az├║car blanco",
                 "umg": "GR",
                 "qty": 200.0
             },
@@ -3573,7 +3588,7 @@ const subRecipeData = [
     {
         "id": "vinagreta-de-mostaza",
         "name": "Vinagreta de mostaza",
-        "category": "Frío-nikkei",
+        "category": "Fr├¡o-nikkei",
         "yield": 2226.0,
         "ingredients": [
             {
@@ -3606,7 +3621,7 @@ const subRecipeData = [
     {
         "id": "aceite-de-cilantro",
         "name": "Aceite de cilantro",
-        "category": "Frío-nikkei",
+        "category": "Fr├¡o-nikkei",
         "yield": 1132.0,
         "ingredients": [
             {
@@ -3623,14 +3638,14 @@ const subRecipeData = [
         "procedure": [
             "1- blanquear el cilantro escurrir y cortar finamente",
             "2- poner todos los ingredientes en una procesadora",
-            "3- procesar hasta conseguir un aceite verde limón.",
+            "3- procesar hasta conseguir un aceite verde lim├│n.",
             "4- tamizar y reservar empacado al vacio."
         ]
     },
     {
         "id": "espuma-de-cilantro",
         "name": "Espuma de cilantro",
-        "category": "Frío-nikkei",
+        "category": "Fr├¡o-nikkei",
         "yield": 890.0,
         "ingredients": [
             {
@@ -3663,7 +3678,7 @@ const subRecipeData = [
     {
         "id": "salsa-de-maracuya",
         "name": "Salsa de maracuy├í",
-        "category": "Frío-nikkei",
+        "category": "Fr├¡o-nikkei",
         "yield": 1305.0,
         "ingredients": [
             {
@@ -3672,7 +3687,7 @@ const subRecipeData = [
                 "qty": 1100.0
             },
             {
-                "name": "Azúcar blanco",
+                "name": "Az├║car blanco",
                 "umg": "GR",
                 "qty": 40.0
             },
@@ -3687,7 +3702,7 @@ const subRecipeData = [
                 "qty": 0
             },
             {
-                "name": "Aceite de sésamo",
+                "name": "Aceite de s├®samo",
                 "umg": "ML",
                 "qty": 9.0
             },
@@ -3710,7 +3725,7 @@ const subRecipeData = [
     {
         "id": "leche-de-tigre-bachiche",
         "name": "Leche de tigre bachiche",
-        "category": "Frío-nikkei",
+        "category": "Fr├¡o-nikkei",
         "yield": 664.0,
         "ingredients": [
             {
@@ -3759,7 +3774,7 @@ const subRecipeData = [
                 "qty": 7.0
             },
             {
-                "name": "Ají limo",
+                "name": "Aj├¡ limo",
                 "umg": "GR",
                 "qty": 13.0
             },
@@ -3775,7 +3790,7 @@ const subRecipeData = [
             }
         ],
         "procedure": [
-            "1- cortar el queso parmesano en dados muy pequeños",
+            "1- cortar el queso parmesano en dados muy peque├▒os",
             "2- poner todos los ingredientes en una procedadora y procesar hasta tener una salsa liger y homogenea",
             "3- tamizar y reservar empacado al vacio."
         ]
@@ -3783,16 +3798,16 @@ const subRecipeData = [
     {
         "id": "leche-de-tigre-q",
         "name": "Leche de tigre q",
-        "category": "Frío-nikkei",
+        "category": "Fr├¡o-nikkei",
         "yield": 1970.0,
         "ingredients": [
             {
-                "name": "Pasta Ají amarillo",
+                "name": "Pasta Aj├¡ amarillo",
                 "umg": "GR",
                 "qty": 1000.0
             },
             {
-                "name": "Limón marinado Quispe",
+                "name": "Lim├│n marinado Quispe",
                 "umg": "GR",
                 "qty": 800.0
             },
@@ -3830,7 +3845,7 @@ const subRecipeData = [
     {
         "id": "leche-de-tigre-clasica",
         "name": "Leche de tigre cl├ísica",
-        "category": "Frío-nikkei",
+        "category": "Fr├¡o-nikkei",
         "yield": 8320.0,
         "ingredients": [
             {
@@ -3859,7 +3874,7 @@ const subRecipeData = [
                 "qty": 50.0
             },
             {
-                "name": "Ají limo congelado",
+                "name": "Aj├¡ limo congelado",
                 "umg": "GR",
                 "qty": 20.0
             },
@@ -3900,7 +3915,7 @@ const subRecipeData = [
     {
         "id": "leche-de-tigre-de-rocoto",
         "name": "Leche de tigre de rocoto",
-        "category": "Frío-nikkei",
+        "category": "Fr├¡o-nikkei",
         "yield": 2033.0,
         "ingredients": [
             {
@@ -3909,7 +3924,7 @@ const subRecipeData = [
                 "qty": 1000.0
             },
             {
-                "name": "Limón marinado",
+                "name": "Lim├│n marinado",
                 "umg": "ML",
                 "qty": 1000.0
             },
@@ -3942,7 +3957,7 @@ const subRecipeData = [
     {
         "id": "leche-de-tigre-sacha-tomate",
         "name": "Leche de tigre sacha tomate",
-        "category": "Frío-nikkei",
+        "category": "Fr├¡o-nikkei",
         "yield": 988.6,
         "ingredients": [
             {
@@ -3991,7 +4006,7 @@ const subRecipeData = [
                 "qty": 0
             },
             {
-                "name": "Aceite sésamo",
+                "name": "Aceite s├®samo",
                 "umg": "GR",
                 "qty": 5.2
             },
@@ -4001,7 +4016,7 @@ const subRecipeData = [
                 "qty": 0
             },
             {
-                "name": "Limón marinado",
+                "name": "Lim├│n marinado",
                 "umg": "GR",
                 "qty": 183.0
             },
@@ -4024,7 +4039,7 @@ const subRecipeData = [
     {
         "id": "pasta-de-sacha-tomate",
         "name": "Pasta de sacha tomate",
-        "category": "Frío-nikkei",
+        "category": "Fr├¡o-nikkei",
         "yield": 5683.0,
         "ingredients": [
             {
@@ -4033,7 +4048,7 @@ const subRecipeData = [
                 "qty": 3000.0
             },
             {
-                "name": "Lilmón marinado",
+                "name": "Lilm├│n marinado",
                 "umg": "GR",
                 "qty": 1500.0
             },
@@ -4062,17 +4077,17 @@ const subRecipeData = [
     },
     {
         "id": "emulsion-aji-amarillo-ahumado",
-        "name": "Emulsión ají amarillo ahumado",
+        "name": "Emulsi├│n aj├¡ amarillo ahumado",
         "category": "Bases y Salsas",
         "yield": 1240.0,
         "ingredients": [
             {
-                "name": "Ají amarillo",
+                "name": "Aj├¡ amarillo",
                 "umg": "GR",
                 "qty": 1000.0
             },
             {
-                "name": "Limón marinado",
+                "name": "Lim├│n marinado",
                 "umg": "GR",
                 "qty": 180.0
             },
@@ -4105,7 +4120,7 @@ const subRecipeData = [
     {
         "id": "maionesa-botija-aceituna",
         "name": "Maionesa botija aceituna",
-        "category": "Frío-nikkei",
+        "category": "Fr├¡o-nikkei",
         "yield": 1570.0,
         "ingredients": [
             {
@@ -4177,7 +4192,7 @@ const subRecipeData = [
                 "qty": 10.0
             },
             {
-                "name": "Limón",
+                "name": "Lim├│n",
                 "umg": "GR",
                 "qty": 45.0
             }
@@ -4204,7 +4219,7 @@ const subRecipeData = [
                 "qty": 4000.0
             },
             {
-                "name": "Pasta ají amarillo",
+                "name": "Pasta aj├¡ amarillo",
                 "umg": "GR",
                 "qty": 0
             },
@@ -4224,7 +4239,7 @@ const subRecipeData = [
                 "qty": 1500.0
             },
             {
-                "name": "Azúcar",
+                "name": "Az├║car",
                 "umg": "GR",
                 "qty": 400.0
             },
@@ -4242,7 +4257,7 @@ const subRecipeData = [
     },
     {
         "id": "beurre-blanc-aji-amarillo",
-        "name": "Beurre blanc ají amarillo",
+        "name": "Beurre blanc aj├¡ amarillo",
         "category": "Caliente",
         "yield": 1368.0,
         "ingredients": [
@@ -4252,7 +4267,7 @@ const subRecipeData = [
                 "qty": 600.0
             },
             {
-                "name": "Pasta ají amarillo",
+                "name": "Pasta aj├¡ amarillo",
                 "umg": "GR",
                 "qty": 250.0
             },
@@ -4288,7 +4303,7 @@ const subRecipeData = [
             }
         ],
         "procedure": [
-            "1- poner en una cacerola el fondo de pollo y reducir en 10 % y pasta de ají amarillo",
+            "1- poner en una cacerola el fondo de pollo y reducir en 10 % y pasta de aj├¡ amarillo",
             "2- agregar la mantequilla poco a poco y sin dejar de mover con batidor globo  hasta emulsionar",
             "3. agreagar los de mas ingredientes a fuego bajo  y seguir moviendo.",
             "4. tamizar y reservar empcado al vacio."
@@ -4447,7 +4462,7 @@ const subRecipeData = [
     {
         "id": "limon-marinado",
         "name": "Limon marinado",
-        "category": "Frío-nikkei",
+        "category": "Fr├¡o-nikkei",
         "yield": 4960.0,
         "ingredients": [
             {
@@ -4500,7 +4515,7 @@ const subRecipeData = [
             "1- seleccionar y limpiar todos las verduras",
             "2- triturar o aplastar con un martillo todas las verduras selecionadas",
             "3. poner en un bowl todos los ingredientes secos y reposar durante 15 minutos",
-            "4- agregar el zumo de limón y reposar durante 2 a 3 horas",
+            "4- agregar el zumo de lim├│n y reposar durante 2 a 3 horas",
             "5- tamizar y reservar empcado al vacio."
         ]
     },
@@ -4541,7 +4556,7 @@ const subRecipeData = [
                 "qty": 40.0
             },
             {
-                "name": "Pasta ají amarillo",
+                "name": "Pasta aj├¡ amarillo",
                 "umg": "GR",
                 "qty": 50.0
             },
@@ -4581,7 +4596,7 @@ const subRecipeData = [
                 "qty": 1800.0
             },
             {
-                "name": "Azúcar",
+                "name": "Az├║car",
                 "umg": "GR",
                 "qty": 200.0
             },
@@ -4661,7 +4676,7 @@ const subRecipeData = [
     },
     {
         "id": "alioli-de-aji-amarillo",
-        "name": "Alioli de ají amarillo",
+        "name": "Alioli de aj├¡ amarillo",
         "category": "Caliente",
         "yield": 5770.0,
         "ingredients": [
@@ -4671,7 +4686,7 @@ const subRecipeData = [
                 "qty": 4600.0
             },
             {
-                "name": "Pasta ají amarillo",
+                "name": "Pasta aj├¡ amarillo",
                 "umg": "GR",
                 "qty": 981.0
             },
@@ -4713,7 +4728,7 @@ const subRecipeData = [
     },
     {
         "id": "pure-de-coliflor",
-        "name": "Puré de coliflor",
+        "name": "Pur├® de coliflor",
         "category": "Caliente",
         "yield": 6600.0,
         "ingredients": [
@@ -4739,7 +4754,7 @@ const subRecipeData = [
             }
         ],
         "procedure": [
-            "1- limpiar el coliflor y cortar en cubos pequeños",
+            "1- limpiar el coliflor y cortar en cubos peque├▒os",
             "2- poner en una olla la mantequilla y la nata, agregar el coliflor limpio y cocinar a fuego lento por 1 hora aprox.",
             "3- cuando el coliflor este al dente, poner en el procesador y procesar hasta conseguir un pure sedoso.",
             "4- reservar y empcar al vacio."
@@ -4747,7 +4762,7 @@ const subRecipeData = [
     },
     {
         "id": "pure-de-loche-calabaza",
-        "name": "Puré de loche calabaza",
+        "name": "Pur├® de loche calabaza",
         "category": "Caliente",
         "yield": 6516.0,
         "ingredients": [
@@ -4788,7 +4803,7 @@ const subRecipeData = [
     {
         "id": "tartar-de-langostinos",
         "name": "Tartar de langostinos",
-        "category": "Frío-nikkei",
+        "category": "Fr├¡o-nikkei",
         "yield": 1338.0,
         "ingredients": [
             {
@@ -4839,15 +4854,15 @@ const subRecipeData = [
         ],
         "procedure": [
             "1- blanquear los los langostinos por 10 segundos y cortar coccion con hielo",
-            "2- cortar los langostinos y la cebolla en cubos muy pequeños y reservar",
+            "2- cortar los langostinos y la cebolla en cubos muy peque├▒os y reservar",
             "3- mezclar todos los ingredientes hasta obetener un tartare cremosa.",
             "4- reservar y empacar al vacio."
         ]
     },
     {
         "id": "tartar-de-atun",
-        "name": "Tartar de atún",
-        "category": "Frío-nikkei",
+        "name": "Tartar de at├║n",
+        "category": "Fr├¡o-nikkei",
         "yield": 290.0,
         "ingredients": [
             {
@@ -4866,7 +4881,7 @@ const subRecipeData = [
                 "qty": 0
             },
             {
-                "name": "Aceite de sésamo",
+                "name": "Aceite de s├®samo",
                 "umg": "ML",
                 "qty": 6.0
             },
@@ -4902,7 +4917,7 @@ const subRecipeData = [
             }
         ],
         "procedure": [
-            "1- cortar el atún en cubos muy pequños o los raspados de la ventresca.",
+            "1- cortar el at├║n en cubos muy pequ├▒os o los raspados de la ventresca.",
             "2- poner todos los ingredientes en un bowl",
             "3- mezclar hasta integrar todos los ingredientes",
             "4- reservar y empcar al vacio."
@@ -4910,8 +4925,8 @@ const subRecipeData = [
     },
     {
         "id": "tartar-de-salmon",
-        "name": "Tartar de salmón",
-        "category": "Frío-nikkei",
+        "name": "Tartar de salm├│n",
+        "category": "Fr├¡o-nikkei",
         "yield": 531.3,
         "ingredients": [
             {
@@ -4940,7 +4955,7 @@ const subRecipeData = [
                 "qty": 20.2
             },
             {
-                "name": "Aceite de sésamo",
+                "name": "Aceite de s├®samo",
                 "umg": "ML",
                 "qty": 11.7
             },
@@ -4961,7 +4976,7 @@ const subRecipeData = [
             }
         ],
         "procedure": [
-            "1- cortar el salmon  en cubos muy pequños o los raspados de la ventresca.",
+            "1- cortar el salmon  en cubos muy pequ├▒os o los raspados de la ventresca.",
             "2- poner todos los ingredientes en un bowl",
             "3- mezclar hasta integrar todos los ingredientes",
             "4- reservar y empcar al vacio."
@@ -4970,7 +4985,7 @@ const subRecipeData = [
     {
         "id": "tartar-de-ventresca",
         "name": "Tartar de ventresca",
-        "category": "Frío-nikkei",
+        "category": "Fr├¡o-nikkei",
         "yield": 1300.0,
         "ingredients": [
             {
@@ -5101,7 +5116,7 @@ const subRecipeData = [
                 "qty": 200.0
             },
             {
-                "name": "Azúcar",
+                "name": "Az├║car",
                 "umg": "GR",
                 "qty": 3000.0
             },
@@ -5111,7 +5126,7 @@ const subRecipeData = [
                 "qty": 300.0
             },
             {
-                "name": "Aceite sésamo",
+                "name": "Aceite s├®samo",
                 "umg": "ML",
                 "qty": 200.0
             }
@@ -5162,7 +5177,7 @@ const subRecipeData = [
     },
     {
         "id": "aceite-ajo-y-pimenton",
-        "name": "Aceite ajo y pimentón",
+        "name": "Aceite ajo y piment├│n",
         "category": "Caliente",
         "yield": 1082.0,
         "ingredients": [
@@ -5231,7 +5246,7 @@ const subRecipeData = [
                 "qty": 1000.0
             },
             {
-                "name": "Aceite sésamo",
+                "name": "Aceite s├®samo",
                 "umg": "ML",
                 "qty": 0
             },
@@ -5270,7 +5285,7 @@ const subRecipeData = [
                 "qty": 60.0
             },
             {
-                "name": "Ají amarillo",
+                "name": "Aj├¡ amarillo",
                 "umg": "GR",
                 "qty": 950.0
             },
@@ -5280,7 +5295,7 @@ const subRecipeData = [
                 "qty": 6.0
             },
             {
-                "name": "Orégano seco",
+                "name": "Or├®gano seco",
                 "umg": "GR",
                 "qty": 5.0
             },
@@ -5290,7 +5305,7 @@ const subRecipeData = [
                 "qty": 4.0
             },
             {
-                "name": "Salsa ostión",
+                "name": "Salsa osti├│n",
                 "umg": "ML",
                 "qty": 80.0
             },
@@ -5385,7 +5400,7 @@ const subRecipeData = [
     {
         "id": "salsa-anticuchera",
         "name": "Salsa anticuchera",
-        "category": "Frío-nikkei",
+        "category": "Fr├¡o-nikkei",
         "yield": 6600.0,
         "ingredients": [
             {
@@ -5479,12 +5494,12 @@ const subRecipeData = [
     },
     {
         "id": "leche-tigre-aji-amarillo-ponzu",
-        "name": "Leche tigre ají amarillo ponzu",
+        "name": "Leche tigre aj├¡ amarillo ponzu",
         "category": "Bases y Salsas",
         "yield": 1040.0,
         "ingredients": [
             {
-                "name": "Pasta ají amarillo",
+                "name": "Pasta aj├¡ amarillo",
                 "umg": "GR",
                 "qty": 500.0
             },
@@ -5494,7 +5509,7 @@ const subRecipeData = [
                 "qty": 250.0
             },
             {
-                "name": "Limón marinado",
+                "name": "Lim├│n marinado",
                 "umg": "ML",
                 "qty": 250.0
             },

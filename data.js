@@ -1,11 +1,11 @@
-﻿// data.js
+﻿ï»¿// data.js
 const recipeData = [
     {
         "id": "cebiche-clasico",
         "name": "Cebiche clasico",
         "category": "Cebiches",
         "status": "active",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "02:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
@@ -41,12 +41,12 @@ const recipeData = [
                 "qty": 100
             },
             {
-                "name": "LimÃ³n marinado",
+                "name": "Limón marinado",
                 "umg": "Gramos",
                 "qty": 5
             },
             {
-                "name": "MaÃ­z chulpe",
+                "name": "Maíz chulpe",
                 "umg": "Gramos",
                 "qty": 10
             },
@@ -80,7 +80,7 @@ const recipeData = [
         "name": "Cebiche Mixto ahumado",
         "category": "Cebiches",
         "status": "archived",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "02:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
@@ -164,13 +164,13 @@ const recipeData = [
         "name": "Cebiche Quispe",
         "category": "Cebiches",
         "status": "active",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "02:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
-                "name": "AjÃ­ limo Limpio",
+                "name": "Ají limo Limpio",
                 "umg": "Gramos",
                 "qty": 1
             },
@@ -201,7 +201,7 @@ const recipeData = [
             },
             {
                 "name": "Corvina porcion",
-                "umg": "PorciÃ³n",
+                "umg": "Porción",
                 "qty": 1
             },
             {
@@ -210,12 +210,12 @@ const recipeData = [
                 "qty": 40
             },
             {
-                "name": "Leche de tigre AjÃ­ amarillo",
+                "name": "Leche de tigre Ají amarillo",
                 "umg": "Mililitros",
                 "qty": 100
             },
             {
-                "name": "MaÃ­z chulpe",
+                "name": "Maíz chulpe",
                 "umg": "Gramos",
                 "qty": 10
             },
@@ -233,12 +233,12 @@ const recipeData = [
         "procedure": [
             "1. Freir los chipirones, hasta que queden crujientes. Reservar",
             "2. Cortar la cebolla roja en pluma y reservar.",
-            "3. Colocar en un bowl la porciÃ³n de corvina en cubos, el pulpo, ajÃ­ limo y cilantro cortado finamente, cebolla roja pluma, limÃ³n marinado",
+            "3. Colocar en un bowl la porción de corvina en cubos, el pulpo, ají limo y cilantro cortado finamente, cebolla roja pluma, limón marinado",
             "y sal e integrar.",
-            "4. BaÃ±ar con la leche de tigre de ajÃ­ amarillo.",
+            "4. Bañar con la leche de tigre de ají amarillo.",
             "5. En el plato de servicio, colocar la mezcla y coronar con un poco de cebolla.",
             "6. Con un soplete. asar el boniato glaseado.",
-            "7. Decorar el plato con boniato, chipirones fritos, maÃ­z chulpe y brote de cilantro."
+            "7. Decorar el plato con boniato, chipirones fritos, maíz chulpe y brote de cilantro."
         ]
     },
     {
@@ -246,7 +246,7 @@ const recipeData = [
         "name": "Cebiche Verde de corvina",
         "category": "Cebiches",
         "status": "active",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "02:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
@@ -273,7 +273,7 @@ const recipeData = [
             },
             {
                 "name": "Corvina porcion",
-                "umg": "PorciÃ³n",
+                "umg": "Porción",
                 "qty": 1
             },
             {
@@ -287,7 +287,7 @@ const recipeData = [
                 "qty": 55
             },
             {
-                "name": "Leche de Trige ClÃ¡sica",
+                "name": "Leche de Trige Clásica",
                 "umg": "Mililitros",
                 "qty": 40
             },
@@ -323,10 +323,10 @@ const recipeData = [
     },
     {
         "id": "cebiche-de-atun",
-        "name": "Cebiche de AtÃºn",
+        "name": "Cebiche de Atún",
         "category": "Cebiches",
         "status": "active",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "02:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
@@ -352,7 +352,7 @@ const recipeData = [
                 "qty": 2
             },
             {
-                "name": "Lomo de atÃºn",
+                "name": "Lomo de atún",
                 "umg": "Gramos",
                 "qty": 100
             },
@@ -402,7 +402,7 @@ const recipeData = [
                 "qty": 5
             },
             {
-                "name": "EmulsiÃ³n de ajÃ­ amarillo",
+                "name": "Emulsión de ají amarillo",
                 "umg": "Gramos",
                 "qty": 10
             },
@@ -417,7 +417,7 @@ const recipeData = [
                 "qty": 7
             },
             {
-                "name": "Aceite de sÃ©samo",
+                "name": "Aceite de sésamo",
                 "umg": "Mililitros",
                 "qty": 4
             }
@@ -436,7 +436,7 @@ const recipeData = [
         "name": "Trio de cebiches",
         "category": "Cebiches",
         "status": "active",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "05:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
@@ -472,7 +472,7 @@ const recipeData = [
                 "qty": 65
             },
             {
-                "name": "MaÃ­z chulpe",
+                "name": "Maíz chulpe",
                 "umg": "Gramos",
                 "qty": 5
             },
@@ -567,7 +567,7 @@ const recipeData = [
                 "qty": 0.5
             },
             {
-                "name": "AtÃºn",
+                "name": "Atún",
                 "umg": "Gramos",
                 "qty": 50
             },
@@ -577,7 +577,7 @@ const recipeData = [
                 "qty": 65
             },
             {
-                "name": "AjÃ­ limo limpio",
+                "name": "Ají limo limpio",
                 "umg": "Gramos",
                 "qty": 0.5
             },
@@ -618,7 +618,7 @@ const recipeData = [
         "name": "Tiradito de Vieiras",
         "category": "Tiraditos",
         "status": "active",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "02:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
@@ -630,7 +630,7 @@ const recipeData = [
             },
             {
                 "name": "Vieiras",
-                "umg": "PORCIÃ“N",
+                "umg": "PORCIÓN",
                 "qty": 52
             },
             {
@@ -654,7 +654,7 @@ const recipeData = [
                 "qty": 27
             },
             {
-                "name": "LÃ¡minas de atÃºn",
+                "name": "Láminas de atún",
                 "umg": "Gramos",
                 "qty": 24
             },
@@ -669,7 +669,7 @@ const recipeData = [
                 "qty": 3
             },
             {
-                "name": "Rabanito sandÃ­a",
+                "name": "Rabanito sandía",
                 "umg": "Gramos",
                 "qty": 3
             }
@@ -684,10 +684,10 @@ const recipeData = [
     },
     {
         "id": "tiradito-de-atun-de-almadraba",
-        "name": "Tiradito de AtÃºn de Almadraba",
+        "name": "Tiradito de Atún de Almadraba",
         "category": "Tiraditos",
         "status": "active",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "02:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
@@ -708,7 +708,7 @@ const recipeData = [
                 "qty": 2
             },
             {
-                "name": "Emulsion de AjÃ­ amarillo",
+                "name": "Emulsion de Ají amarillo",
                 "umg": "Gramos",
                 "qty": 10
             },
@@ -724,19 +724,19 @@ const recipeData = [
             }
         ],
         "procedure": [
-            "1. Filetear el atÃºn.",
+            "1. Filetear el atún.",
             "2. Sobre el plato de servicio, colocar la cantidad correspondiente en laminas enrolladas.",
-            "3. BaÃ±ar con la salsa Ponzu.",
-            "4. Sobre cada rollo colocar 1 punto de emulsiÃ³n de aji amarillo.",
+            "3. Bañar con la salsa Ponzu.",
+            "4. Sobre cada rollo colocar 1 punto de emulsión de aji amarillo.",
             "5. Decorar con cebolla frita y ciboullette."
         ]
     },
     {
         "id": "tiradito-de-salmon-&-maracuya",
-        "name": "Tiradito de SalmÃ³n & MaracuyÃ¡",
+        "name": "Tiradito de Salmón & Maracuyá",
         "category": "Tiraditos",
         "status": "active",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "02:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
@@ -772,12 +772,12 @@ const recipeData = [
                 "qty": 70
             },
             {
-                "name": "Salsa acevichada de maracuyÃ¡",
+                "name": "Salsa acevichada de maracuyá",
                 "umg": "Gramos",
                 "qty": 50
             },
             {
-                "name": "EmulsiÃ³n de aji amarillo",
+                "name": "Emulsión de aji amarillo",
                 "umg": "Gramos",
                 "qty": 10
             },
@@ -793,8 +793,8 @@ const recipeData = [
             }
         ],
         "procedure": [
-            "1. Filetear el salmÃ³n.",
-            "2. Sobre el plato, colocar la emulsiÃ³n de aji amarillo como refiere la foto. Rellenar con salsa acevichada de maracuyÃ¡.",
+            "1. Filetear el salmón.",
+            "2. Sobre el plato, colocar la emulsión de aji amarillo como refiere la foto. Rellenar con salsa acevichada de maracuyá.",
             "3. Colocar las laminas enrolladas, y sobre estas colocar un punto de huevas de trucha.",
             "4. Decorar con unos puntos de aceite de cilantro, rabanitos, quinua pop, y brotes."
         ]
@@ -804,7 +804,7 @@ const recipeData = [
         "name": "Tiradito de pulpo al Olivo",
         "category": "Tiraditos",
         "status": "archived",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "02:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
@@ -835,7 +835,7 @@ const recipeData = [
                 "qty": 2
             },
             {
-                "name": "Leche de tigre clÃ¡sica",
+                "name": "Leche de tigre clásica",
                 "umg": "Mililitros",
                 "qty": 10
             },
@@ -845,7 +845,7 @@ const recipeData = [
                 "qty": 30
             },
             {
-                "name": "Papel Tapioca maÃ­z morado",
+                "name": "Papel Tapioca maíz morado",
                 "umg": "Gramos",
                 "qty": 10
             },
@@ -870,7 +870,7 @@ const recipeData = [
                 "qty": 2
             },
             {
-                "name": "EmulsiÃ³n de ajÃ­",
+                "name": "Emulsión de ají",
                 "umg": "Gramos",
                 "qty": 5
             },
@@ -901,7 +901,7 @@ const recipeData = [
         "name": "Tiradito de corvina & Aguacate",
         "category": "Tiraditos",
         "status": "active",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "02:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
@@ -942,7 +942,7 @@ const recipeData = [
                 "qty": 3
             },
             {
-                "name": "LimÃ³n Marinado",
+                "name": "Limón Marinado",
                 "umg": "Gramos",
                 "qty": 30
             },
@@ -964,7 +964,7 @@ const recipeData = [
         ],
         "procedure": [
             "1. Filetear la pesca en laminas",
-            "2. Emulsionar aceite de cilantro y el limÃ³n marinado. Agregar el aji limo y dashi no moto e integar.",
+            "2. Emulsionar aceite de cilantro y el limón marinado. Agregar el aji limo y dashi no moto e integar.",
             "3. Colocar la mezcla sobre el plato de servicio y distribuirlo sobre toda la superficie.",
             "4.. Colocar las la inas de corvina como refiere la foto.",
             "5. Colocar sobre cada lamina las huevas de lumpo, aguacate laminado y pure de boniato.",
@@ -976,7 +976,7 @@ const recipeData = [
         "name": "Tiradito Bachhiche de Hamachi",
         "category": "Tiraditos",
         "status": "active",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "02:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
@@ -992,7 +992,7 @@ const recipeData = [
                 "qty": 2
             },
             {
-                "name": "LÃ¡minas de hamachi",
+                "name": "Láminas de hamachi",
                 "umg": "Gramos",
                 "qty": 80
             },
@@ -1028,8 +1028,8 @@ const recipeData = [
             }
         ],
         "procedure": [
-            "1. Filetear la pesca en lÃ¡minas",
-            "2. Emulsionar aceite de cilantro y el limÃ³n marinado. Agregar el aji limo y dashi no moto e integar.",
+            "1. Filetear la pesca en láminas",
+            "2. Emulsionar aceite de cilantro y el limón marinado. Agregar el aji limo y dashi no moto e integar.",
             "3. Colocar la mezcla sobre el plato de servicio y distribuirlo sobre toda la superficie.",
             "4.. Colocar las la inas de corvina como refiere la foto.",
             "5. Colocar sobre cada lamina las huevas de lumpo, aguacate laminado y pure de boniato.",
@@ -1041,7 +1041,7 @@ const recipeData = [
         "name": "Causa de Langostinos",
         "category": "Causas",
         "status": "active",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "03:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
@@ -1057,7 +1057,7 @@ const recipeData = [
                 "qty": 10
             },
             {
-                "name": "EmulsiÃ³n de ajÃ­ amarillo",
+                "name": "Emulsión de ají amarillo",
                 "umg": "Gramos",
                 "qty": 0
             },
@@ -1109,16 +1109,16 @@ const recipeData = [
         ],
         "procedure": [
             "1. Colocar las 3 masas de causa sobre el plato de servico como refiere la foto.",
-            "2. Colocar sobre esta pequeÃ±as porciones de tarta de langostinos, puntos de alioli de rocoto y emilsiÃ³n de aji amarillo ahumado",
+            "2. Colocar sobre esta pequeñas porciones de tarta de langostinos, puntos de alioli de rocoto y emilsión de aji amarillo ahumado",
             "3. Decorar con tomates cereza en cuartos, mini rabanitos laminados y micromezclum."
         ]
     },
     {
         "id": "causa-de-atun",
-        "name": "Causa de AtÃºn",
+        "name": "Causa de Atún",
         "category": "Causas",
         "status": "active",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "03:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
@@ -1149,12 +1149,12 @@ const recipeData = [
                 "qty": 10
             },
             {
-                "name": "EmulsiÃ³n de ajÃ­ amarillo",
+                "name": "Emulsión de ají amarillo",
                 "umg": "Gramos",
                 "qty": 10
             },
             {
-                "name": "Tartar de atÃºn",
+                "name": "Tartar de atún",
                 "umg": "Gramos",
                 "qty": 120
             },
@@ -1176,8 +1176,8 @@ const recipeData = [
         ],
         "procedure": [
             "1. Sobre el plato de servicio, colocar el molde de causa y rellenar con la masa de causa.",
-            "2. Rellenar con el tartar de atÃºn y emparejar. Retirar el molde.",
-            "3. Decorar con monedas de aguacate, puntos de mousse de aguacate, emulsiÃ³n de ajÃ­ amarillo, alcaparrones y brotes de cilantro.",
+            "2. Rellenar con el tartar de atún y emparejar. Retirar el molde.",
+            "3. Decorar con monedas de aguacate, puntos de mousse de aguacate, emulsión de ají amarillo, alcaparrones y brotes de cilantro.",
             "4. Servir la salsa acevichada de rocoto por fuera."
         ]
     },
@@ -1186,7 +1186,7 @@ const recipeData = [
         "name": "Causa Acebichada  de corvina",
         "category": "Causas",
         "status": "active",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "03:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
@@ -1280,7 +1280,7 @@ const recipeData = [
         "name": "Causa de Ventresca de Bonito",
         "category": "Causas",
         "status": "archived",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "03:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
@@ -1296,7 +1296,7 @@ const recipeData = [
                 "qty": 1
             },
             {
-                "name": "LÃ¡minas de atÃºn",
+                "name": "Láminas de atún",
                 "umg": "Gramos",
                 "qty": 11
             },
@@ -1316,15 +1316,15 @@ const recipeData = [
                 "qty": 1
             },
             {
-                "name": "Rabanito sandÃ­a",
+                "name": "Rabanito sandía",
                 "umg": "Gramos",
                 "qty": 2
             }
         ],
         "procedure": [
             "1. Sobre el plato de servicio, colocar el molde de causa y rellenar con la masa de causa.",
-            "2. Rellenar con el tartar de atÃºn y emparejar. Retirar el molde.",
-            "3. Decorar con monedas de aguacate, puntos de mousse de aguacate, emulsiÃ³n de ajÃ­ amarillo, alcaparrones y brotes de cilantro.",
+            "2. Rellenar con el tartar de atún y emparejar. Retirar el molde.",
+            "3. Decorar con monedas de aguacate, puntos de mousse de aguacate, emulsión de ají amarillo, alcaparrones y brotes de cilantro.",
             "4. Servir la salsa acevichada de rocoto por fuera."
         ]
     },
@@ -1333,7 +1333,7 @@ const recipeData = [
         "name": "Maki Tempura Tartar - 5uds.",
         "category": "Nikkei",
         "status": "active",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "03:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
@@ -1374,7 +1374,7 @@ const recipeData = [
                 "qty": 6
             },
             {
-                "name": "Tartar de AtÃºn sr",
+                "name": "Tartar de Atún sr",
                 "umg": "Gramos",
                 "qty": 60
             },
@@ -1393,8 +1393,8 @@ const recipeData = [
             "1. Hacer un roll uniforme con el arroz shari y el alga nori por fuera relleno de ebi furai, aguacate y queso cema.",
             "2. Tempurizar y freir.",
             "3. Cortar los bordes y porcionar en 5 piezas.",
-            "4. Colocar los discos separados y boca arriba y sobre cada uno colocar una porciÃ³n de tarta de atÃºn.",
-            "5. Sobre cada porciÃ³n colocar un punto de salsa vincunka y salsa tare."
+            "4. Colocar los discos separados y boca arriba y sobre cada uno colocar una porción de tarta de atún.",
+            "5. Sobre cada porción colocar un punto de salsa vincunka y salsa tare."
         ]
     },
     {
@@ -1402,7 +1402,7 @@ const recipeData = [
         "name": "Maki Acebichado - 5uds.",
         "category": "Nikkei",
         "status": "active",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "03:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
@@ -1428,7 +1428,7 @@ const recipeData = [
                 "qty": 1
             },
             {
-                "name": "Lomo de AtÃºn rojo",
+                "name": "Lomo de Atún rojo",
                 "umg": "Gramos",
                 "qty": 15
             },
@@ -1445,7 +1445,7 @@ const recipeData = [
         ],
         "procedure": [
             "1. Hacer un roll uniforme con el arroz shari y el alga nori por dentro, relleno de aguacate y ebi furai.",
-            "2. Cubrir el roll con laminas de AtÃºn.",
+            "2. Cubrir el roll con laminas de Atún.",
             "3. Cortar las bordes y porcionar en 5 piezas.",
             "4. Colocar sobre el plato de servicio como refiere la foto y cubrir con salsa acevichada y decorar con togarashi."
         ]
@@ -1455,7 +1455,7 @@ const recipeData = [
         "name": "Maki Vinicunka - 5Unidads.",
         "category": "Nikkei",
         "status": "active",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "03:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
@@ -1493,9 +1493,9 @@ const recipeData = [
         ],
         "procedure": [
             "1. Hacer un roll uniforme con el arroz shari y el alga nori por dentro, relleno de aguacate y ebi furai.",
-            "2. Cubrir el roll con laminas de salmÃ³n.",
+            "2. Cubrir el roll con laminas de salmón.",
             "3. Cortar las bordes y porcionar en 5 piezas.",
-            "4. Colocar sobre el plato de servicio como refiere la foto y baÃ±ar con salsa vinicunka y asar con soplete."
+            "4. Colocar sobre el plato de servicio como refiere la foto y bañar con salsa vinicunka y asar con soplete."
         ]
     },
     {
@@ -1503,7 +1503,7 @@ const recipeData = [
         "name": "Maki Anticuchero - 5unds.",
         "category": "Nikkei",
         "status": "active",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "03:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
@@ -1553,10 +1553,10 @@ const recipeData = [
     },
     {
         "id": "nigiri-de-salmon---2unds.",
-        "name": "Nigiri de SalmÃ³n - 2unds.",
+        "name": "Nigiri de Salmón - 2unds.",
         "category": "Nikkei",
         "status": "active",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "03:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
@@ -1582,7 +1582,7 @@ const recipeData = [
                 "qty": 0
             },
             {
-                "name": "EmulsiÃ³n de ajÃ­ amarillo",
+                "name": "Emulsión de ají amarillo",
                 "umg": "Gramos",
                 "qty": 4
             },
@@ -1592,24 +1592,24 @@ const recipeData = [
                 "qty": 3
             },
             {
-                "name": "SalmÃ³n limpio",
+                "name": "Salmón limpio",
                 "umg": "Gramos",
                 "qty": 32
             }
         ],
         "procedure": [
-            "1. Con el arroz shari, armar la base del nigiri ( 2 unid por porciÃ³n)",
-            "2. Cubrir las porciones de arroz con una lamina de salmÃ³n noruego.",
+            "1. Con el arroz shari, armar la base del nigiri ( 2 unid por porción)",
+            "2. Cubrir las porciones de arroz con una lamina de salmón noruego.",
             "3. Con una brocha de cocina, pintar el atun con salsa ponzu.",
             "4. Decorar con la emulsiÃ²n de salsa de ajÃ¬ amarillo, cebolla frita y papel de tapioca morado."
         ]
     },
     {
         "id": "nigiri-de-atun-de-almadraba---2unds.",
-        "name": "Nigiri de AtÃºn de Almadraba - 2unds.",
+        "name": "Nigiri de Atún de Almadraba - 2unds.",
         "category": "Nikkei",
         "status": "active",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "03:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
@@ -1630,7 +1630,7 @@ const recipeData = [
                 "qty": 2
             },
             {
-                "name": "Lomo de AtÃºn rojo",
+                "name": "Lomo de Atún rojo",
                 "umg": "Gramos",
                 "qty": 30
             },
@@ -1641,8 +1641,8 @@ const recipeData = [
             }
         ],
         "procedure": [
-            "1. Con el arroz shari, armar la base del nigiri ( 2 unid por porciÃ³n)",
-            "2. Cubrir las porciones de arroz con una lamina de atÃºn.",
+            "1. Con el arroz shari, armar la base del nigiri ( 2 unid por porción)",
+            "2. Cubrir las porciones de arroz con una lamina de atún.",
             "3. Con una brocha de cocina, pintar el atun con salsa ponzu.",
             "4. Colocar un punto de salsa acevichada y decorar con el chip de alga nori."
         ]
@@ -1652,7 +1652,7 @@ const recipeData = [
         "name": "Nigiri de Lubina - 2unds.",
         "category": "Nikkei",
         "status": "active",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "03:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
@@ -1694,8 +1694,8 @@ const recipeData = [
             }
         ],
         "procedure": [
-            "1. Con el arroz shari, armar la base del nigiri ( 2 unid por porciÃ³n)",
-            "2. Cubrir las porciones de arroz con una lamina de salmÃ³n noruego.",
+            "1. Con el arroz shari, armar la base del nigiri ( 2 unid por porción)",
+            "2. Cubrir las porciones de arroz con una lamina de salmón noruego.",
             "3. Con una brocha de cocina, pintar el atun con salsa ponzu.",
             "4. Decorar con la emulsiÃ²n de salsa de ajÃ¬ amarillo, cebolla frita y papel de tapioca morado."
         ]
@@ -1705,7 +1705,7 @@ const recipeData = [
         "name": "Acebichada",
         "category": "Ensaladas",
         "status": "active",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "04:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
@@ -1761,7 +1761,7 @@ const recipeData = [
                 "qty": 4
             },
             {
-                "name": "AzÃºcar blanco",
+                "name": "Azúcar blanco",
                 "umg": "Gramos",
                 "qty": 20
             },
@@ -1772,11 +1772,11 @@ const recipeData = [
             }
         ],
         "procedure": [
-            "1. En una bandeja de servicio, colocar la porciÃ³n de queso de cabra (previamente porcionado), y sobre esta colocar azÃºcar moreno y",
+            "1. En una bandeja de servicio, colocar la porción de queso de cabra (previamente porcionado), y sobre esta colocar azúcar moreno y",
             "caramelizar con ayuda de un soplete. Reservar.",
-            "2. En un bowl, colocas las espinacas los tomates cereza en cuartos, la remolacha y el aguacate en cubos. AliÃ±ar con aceite",
+            "2. En un bowl, colocas las espinacas los tomates cereza en cuartos, la remolacha y el aguacate en cubos. Aliñar con aceite",
             "de oliva y sal.",
-            "3. Sobre el plato de servicio, colocar la mezcla de espinaca y baÃ±ar con la salsa acevichada de maracuya . Colocar el queso",
+            "3. Sobre el plato de servicio, colocar la mezcla de espinaca y bañar con la salsa acevichada de maracuya . Colocar el queso",
             "caramelizado en medio y decorar con quinua pop."
         ]
     },
@@ -1785,7 +1785,7 @@ const recipeData = [
         "name": "Quinoa y Endivias",
         "category": "Ensaladas",
         "status": "active",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "04:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
@@ -1842,7 +1842,7 @@ const recipeData = [
             }
         ],
         "procedure": [
-            "1. Colocar en un bowl la lechuga escarola, miz de quinua, tomate raf y el aguacate limpio y aliÃ±ar con la una parte de la vinagreta,",
+            "1. Colocar en un bowl la lechuga escarola, miz de quinua, tomate raf y el aguacate limpio y aliñar con la una parte de la vinagreta,",
             "aceite de oliva y sal.",
             "2. Colocar la mezcla en plato de servicio. Decorar con las endivias, rabanito laminado, tomate adora y agregar el restate de vinagreta.",
             "3. Espolvorear con queso parmesano rallado."
@@ -1853,7 +1853,7 @@ const recipeData = [
         "name": "Ostras Amelie",
         "category": "Entrantes",
         "status": "active",
-        "area": "FrÃ­os",
+        "area": "Fríos",
         "time": "04:00",
         "description": "",
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
@@ -1869,7 +1869,7 @@ const recipeData = [
                 "qty": 2
             },
             {
-                "name": "LimÃ³n marinado",
+                "name": "Limón marinado",
                 "umg": "Mililitros",
                 "qty": 5
             },
@@ -1884,7 +1884,7 @@ const recipeData = [
                 "qty": 10
             },
             {
-                "name": "AjÃ­ limo limpio",
+                "name": "Ají limo limpio",
                 "umg": "Gramos",
                 "qty": 2
             },
@@ -1901,11 +1901,11 @@ const recipeData = [
         ],
         "procedure": [
             "1. Abrir las ostras, limpiar y reservar.",
-            "2. Emulsionar el aceite de cilantro con el limÃ³n maridado y agregar el aji limo picadi finamente.",
-            "3. Para emplatar, cubrir el plato de servico con hielo frappe y decorar con las algas verdes. Sobre las algas colocar las dos ostras y baÃ±ar",
-            "con la emulsiÃ³n de aceite de cilantro.",
-            "4. Sacudir el sifÃ³n de leche de tigre rocoto y colocar un punto sobre cada ostra.",
-            "5. Decorar con las huevas de salmÃ³n."
+            "2. Emulsionar el aceite de cilantro con el limón maridado y agregar el aji limo picadi finamente.",
+            "3. Para emplatar, cubrir el plato de servico con hielo frappe y decorar con las algas verdes. Sobre las algas colocar las dos ostras y bañar",
+            "con la emulsión de aceite de cilantro.",
+            "4. Sacudir el sifón de leche de tigre rocoto y colocar un punto sobre cada ostra.",
+            "5. Decorar con las huevas de salmón."
         ]
     },
     {
@@ -1956,16 +1956,16 @@ const recipeData = [
         ],
         "procedure": [
             "1. Sellar las 2 unid de carne de vieras U10 en una sarten caliente con aceite de oliva.",
-            "2. Hacer una emulsiÃ³n con el beurre blanc y la salsa de chupe.",
-            "3. En paralelo, en una cacerola a fuego medio colocar el pÃºre de coliflor  y remover hasta que este caliente. Reservar.",
+            "2. Hacer una emulsión con el beurre blanc y la salsa de chupe.",
+            "3. En paralelo, en una cacerola a fuego medio colocar el púre de coliflor  y remover hasta que este caliente. Reservar.",
             "4. Para emplatar, sobre el plato de servicio colocar las piedras y sobre estas colocar las conchas y sobre estas la carne de las vieras.",
-            "5. BaÃ±ar la viera sellada con la beurre de chupe y el pure de coliflor.",
+            "5. Bañar la viera sellada con la beurre de chupe y el pure de coliflor.",
             "6.Terminar con espuma de parmesano y texturas de huacatay y aceite de cilantro."
         ]
     },
     {
         "id": "zamburinas-acebichadas-a-la-brasa",
-        "name": "ZamburiÃ±as acebichadas a la brasa",
+        "name": "Zamburiñas acebichadas a la brasa",
         "category": "Entrantes",
         "status": "active",
         "area": "Calientes",
@@ -1994,12 +1994,12 @@ const recipeData = [
                 "qty": 2
             },
             {
-                "name": "ZamburiÃ±as congelada",
+                "name": "Zamburiñas congelada",
                 "umg": "Gramos",
                 "qty": 170
             },
             {
-                "name": "PurÃ© de coliflor",
+                "name": "Puré de coliflor",
                 "umg": "Gramos",
                 "qty": 30
             },
@@ -2010,11 +2010,11 @@ const recipeData = [
             }
         ],
         "procedure": [
-            "1. Sobre la robataa, asar las zamburiÃ±as.",
+            "1. Sobre la robataa, asar las zamburiñas.",
             "2. Calentar el plato de servicio con piedras.",
-            "3. Distribuir las zamburiÃ±as braseadas sobre el plato.",
+            "3. Distribuir las zamburiñas braseadas sobre el plato.",
             "4. Colocar sobe cada porcion, leche de tigre de rocoto y ajÃ¬ amarillo.",
-            "5. Colocar un punto de pure de boniato sobre cada zamburiÃ±a y decorar con quinua pop y micro mezclum."
+            "5. Colocar un punto de pure de boniato sobre cada zamburiña y decorar con quinua pop y micro mezclum."
         ]
     },
     {
@@ -2033,7 +2033,7 @@ const recipeData = [
                 "qty": 25
             },
             {
-                "name": "ChicharrÃ³n de Corvina & Chipirones Jalea",
+                "name": "Chicharrón de Corvina & Chipirones Jalea",
                 "umg": "PORCION",
                 "qty": 1
             },
@@ -2069,16 +2069,16 @@ const recipeData = [
             }
         ],
         "procedure": [
-            "1. En un bowl colocar el aderezo de fritura y huevo, sazonar y mezclar. Agregar la porciÃ²n de chicharrÃ³n y mezclar.",
+            "1. En un bowl colocar el aderezo de fritura y huevo, sazonar y mezclar. Agregar la porciÃ²n de chicharrón y mezclar.",
             "2. Retirar el excedente de liquidos y pasar a un bowl con harina y empanizar. Retirar el excendente de harina",
             "3. Freir por 3 minutos. Escurrir el aceite y reservar.",
-            "4. Sobre el plato de servicio, colocar una base de papel manteca con logo y sobre este colocar la porciÃ³n de fritura.",
-            "5. AcompaÃ±ar con alioli y leche de tigre de rocoto."
+            "4. Sobre el plato de servicio, colocar una base de papel manteca con logo y sobre este colocar la porción de fritura.",
+            "5. Acompañar con alioli y leche de tigre de rocoto."
         ]
     },
     {
         "id": "pulpo-al-carbon-con-majado-de-yuca",
-        "name": "Pulpo al CarbÃ³n con Majado de Yuca",
+        "name": "Pulpo al Carbón con Majado de Yuca",
         "category": "Entrantes",
         "status": "active",
         "area": "Calientes",
@@ -2132,7 +2132,7 @@ const recipeData = [
                 "qty": 4
             },
             {
-                "name": "Alioli de ajÃ­ amarillo",
+                "name": "Alioli de ají amarillo",
                 "umg": "Gramos",
                 "qty": 10
             },
@@ -2142,7 +2142,7 @@ const recipeData = [
                 "qty": 2
             },
             {
-                "name": "EmulsiÃ³n de ajÃ­ amarillo",
+                "name": "Emulsión de ají amarillo",
                 "umg": "Gramos",
                 "qty": 15
             }
@@ -2203,7 +2203,7 @@ const recipeData = [
             }
         ],
         "procedure": [
-            "1. Calentar la porciÃ³n de pastel de choclo en horno precalentado a 180ÂªC por 6 minutos.",
+            "1. Calentar la porción de pastel de choclo en horno precalentado a 180ÂªC por 6 minutos.",
             "2. Marchar en una cacerola el morcillo junto con una parte dela salsa de cochinillo. Aparte tener caliente la otra parte de la salsa.",
             "3, Para emplatar, colocar sobre el plato el pastel caliente y cubrir con el morcillo caliente.",
             "4. Cubrir con la espuma de parmesano y decorar con micro mezclum.",
@@ -2247,15 +2247,15 @@ const recipeData = [
             }
         ],
         "procedure": [
-            "1. Colocar una porciÃ³n de empanadas ( 3 Unidad) y freir por 5 minutos. Retirar de la freidora y colocar en una bandeja de servicio",
+            "1. Colocar una porción de empanadas ( 3 Unidad) y freir por 5 minutos. Retirar de la freidora y colocar en una bandeja de servicio",
             "y terminar la coccion en horno por 2 minutos.",
-            "2. En el plato de servicio, colocar el papel manteca y sobre esta colocar la porciÃ³n de empanadas y sobre esta rallar queso parmesano.",
+            "2. En el plato de servicio, colocar el papel manteca y sobre esta colocar la porción de empanadas y sobre esta rallar queso parmesano.",
             "3. Decorar con unos puntos de alioli de rocoto y micro mezclum."
         ]
     },
     {
         "id": "secreto-iberico-en-salsa-anticuchera",
-        "name": "Secreto ibÃ©rico en salsa anticuchera",
+        "name": "Secreto ibérico en salsa anticuchera",
         "category": "Entrantes",
         "status": "active",
         "area": "Calientes",
@@ -2269,7 +2269,7 @@ const recipeData = [
                 "qty": 10
             },
             {
-                "name": "Alioli de ajÃ­ amarillo",
+                "name": "Alioli de ají amarillo",
                 "umg": "Gramos",
                 "qty": 10
             },
@@ -2294,12 +2294,12 @@ const recipeData = [
                 "qty": 40
             },
             {
-                "name": "Secreto Iberico extra PorciÃ³n",
+                "name": "Secreto Iberico extra Porción",
                 "umg": "Gramos",
                 "qty": 140
             },
             {
-                "name": "Choclo bebÃ©",
+                "name": "Choclo bebé",
                 "umg": "Gramos",
                 "qty": 30
             },
@@ -2316,7 +2316,7 @@ const recipeData = [
         ],
         "procedure": [
             "1. En una cacerola con agua y sal, cocinar las mini patatas por 30 minutos aprox. Reservar.",
-            "2. En una sarten caliente con aceite sellar la porciÃ³n de secreto iberico. Pasar a robata y terminar la coccion por 2 minutos a prox.",
+            "2. En una sarten caliente con aceite sellar la porción de secreto iberico. Pasar a robata y terminar la coccion por 2 minutos a prox.",
             "Retirar de la robata y sobre una tabla de picar, porcionar y reservar.",
             "4. Freir las patatas y colocarlas en un bowl junto con la salsa anticuchera, mezclar y asar con un soplete.",
             "5. Freir las hojas de huacatay y reservar.",
@@ -2326,21 +2326,6 @@ const recipeData = [
         ]
     },
     {
-        "id": "secreto-iberico-en-salsa-anticuchera",
-        "name": "Secreto ibÃ©rico en salsa anticuchera",
-        "category": "Entrantes",
-        "status": "active",
-        "area": "Calientes",
-        "time": "06:00",
-        "description": "",
-        "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
-        "ingredients": [
-            {
-                "name": "Salsa HuancaÃ­na",
-                "umg": "Gramos",
-                "qty": 100
-            },
-            {
                 "name": "Nata para cocina",
                 "umg": "Mililitros",
                 "qty": 30
@@ -2465,7 +2450,7 @@ const recipeData = [
             "1. Saltear el shimeji y portobellos. Hacer una mezcla de estos con salsa kimchee y aceite. sazonar y reservar.",
             "2. En una cacerola colocar el mix de quinua, junto con el aderozo base, trufa, guisantes y pimiento rojo cortado en finos cubos.",
             "Cocinar a fuego medio/ alto y agregar el fondo de pollo para ir hidratando la mezcla.",
-            "3. Para terminar, dar punto con nata y mantequilla y queso parmesano y rectificar sazÃ³n. Retirar del fuego.",
+            "3. Para terminar, dar punto con nata y mantequilla y queso parmesano y rectificar sazón. Retirar del fuego.",
             "4. Sobre el plato de servicio servir el quinotto, y decorar con los hongos brasa.",
             "5. Decorar con queso parmesano rallado y alioli de rocoto y micro mezclum."
         ]
@@ -2541,7 +2526,7 @@ const recipeData = [
                 "qty": 3
             },
             {
-                "name": "Aceite de sÃ©samo",
+                "name": "Aceite de sésamo",
                 "umg": "Gramos",
                 "qty": 3
             },
@@ -2578,7 +2563,7 @@ const recipeData = [
     },
     {
         "id": "arroz-achupetado-de-gambon-&-almejas",
-        "name": "Arroz Achupetado de GambÃ³n & Almejas",
+        "name": "Arroz Achupetado de Gambón & Almejas",
         "category": "Principales",
         "status": "active",
         "area": "Calientes",
@@ -2612,12 +2597,12 @@ const recipeData = [
                 "qty": 150
             },
             {
-                "name": "GambÃ³n con cabeza",
+                "name": "Gambón con cabeza",
                 "umg": "Unidad",
                 "qty": 60
             },
             {
-                "name": "GambÃ³n sin cabeza",
+                "name": "Gambón sin cabeza",
                 "umg": "Gramos",
                 "qty": 40
             },
@@ -2762,7 +2747,7 @@ const recipeData = [
     },
     {
         "id": "aji-de-gallina",
-        "name": "AjÃ­ de Gallina",
+        "name": "Ají de Gallina",
         "category": "Principales",
         "status": "active",
         "area": "Calientes",
@@ -2806,7 +2791,7 @@ const recipeData = [
                 "qty": 7
             },
             {
-                "name": "Salsa de ajÃ­ de gallina",
+                "name": "Salsa de ají de gallina",
                 "umg": "Mililitros",
                 "qty": 150
             },
@@ -2822,12 +2807,12 @@ const recipeData = [
             }
         ],
         "procedure": [
-            "1. Colocar en una cacerola la salsa de ajÃ­ de gallina, junto con la nata y el fondo de pollo y cocinar por unos minutos a fuego medio.",
-            "Cuando los ingredientes esten integrados, agregar el pollo cocido y cocinar unos 4 minutos mÃ¡s.",
+            "1. Colocar en una cacerola la salsa de ají de gallina, junto con la nata y el fondo de pollo y cocinar por unos minutos a fuego medio.",
+            "Cuando los ingredientes esten integrados, agregar el pollo cocido y cocinar unos 4 minutos más.",
             "2. En paralelo. freir el huevo de codorniz y reservar.",
-            "3. En el plato de servicio, colocar el ajÃ­ de gallina y sobre este colocar que parmesano rallado, papa blanca confitada.",
+            "3. En el plato de servicio, colocar el ají de gallina y sobre este colocar que parmesano rallado, papa blanca confitada.",
             "4. Decorar con micro mezclum y unas gotas de aceite de oliva.",
-            "5. AcompaÃ±ar con arroz blanco con choclo."
+            "5. Acompañar con arroz blanco con choclo."
         ]
     },
     {
@@ -2876,7 +2861,7 @@ const recipeData = [
                 "qty": 100
             },
             {
-                "name": "Solomillo porciÃ³n",
+                "name": "Solomillo porción",
                 "umg": "PORCION",
                 "qty": 1
             },
@@ -2909,10 +2894,10 @@ const recipeData = [
         "procedure": [
             "1. Cortar las cebollas en pluma gruesa y los tomates en mitades. Picar el cilantro. Reservar.",
             "2. Cortar las patatas mini en mitades. Freir, sazonar y mantener caliente.",
-            "3. Calentar el wok con aceite y ahumar. Agregar la porciÃ³n de solomillo en cubos y sellar 1 minuto por lado. Agregar la cebolla y el tomate",
+            "3. Calentar el wok con aceite y ahumar. Agregar la porción de solomillo en cubos y sellar 1 minuto por lado. Agregar la cebolla y el tomate",
             "y saltear por 30 segUnidados. Agregar la salsa de lomo y cocinar hasta que tome punto. terminar con el cilantro picado.",
             "4. En el plato de servicio, colocar el salteado de un lado y del otro la patata frita.",
-            "5. AcompaÃ±ar con arroz blanco con choclo."
+            "5. Acompañar con arroz blanco con choclo."
         ]
     },
     {
@@ -2979,17 +2964,17 @@ const recipeData = [
         "procedure": [
             "1. Laminar y freir el zapallo loche. Mantener la fritura crocante.",
             "2. Soazar y limpar el pimiento. Cortar en cubos. Cocinar los guisantes.",
-            "3. Colocar una porcion de Asado de tira (previamente empacada al vacio) en el baÃ±o marÃ­a y calentar.",
+            "3. Colocar una porcion de Asado de tira (previamente empacada al vacio) en el baño maría y calentar.",
             "4. En una cacerola colocar el pure de pallar junto con la nata y el fondo de pollo y llevar a fuego medio. Sazonar y mantener caliente.",
             "5. En una cacerola colocar la salsa melosa y calentar.",
-            "6. Sobre el plato de servicio, colocar el pure de pallar y la porcion de asado de tira caliente y baÃ±ar con la salsa melosa muy caliente.",
+            "6. Sobre el plato de servicio, colocar el pure de pallar y la porcion de asado de tira caliente y bañar con la salsa melosa muy caliente.",
             "7. Terminar con los guisantes y pimiento rojo. Decorar con los chips de loche y aceite de cilantro.",
-            "8. AcompaÃ±ar con arroz blanco con choclo."
+            "8. Acompañar con arroz blanco con choclo."
         ]
     },
     {
         "id": "salmon-a-la-brasa",
-        "name": "SalmÃ³n a la brasa",
+        "name": "Salmón a la brasa",
         "category": "Principales",
         "status": "active",
         "area": "Calientes",
@@ -2998,7 +2983,7 @@ const recipeData = [
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
-                "name": "Beurre blanc de ajÃ­ amarillo",
+                "name": "Beurre blanc de ají amarillo",
                 "umg": "Gramos",
                 "qty": 100
             },
@@ -3008,7 +2993,7 @@ const recipeData = [
                 "qty": 30
             },
             {
-                "name": "EspÃ¡rrago verde limpio",
+                "name": "Espárrago verde limpio",
                 "umg": "Gramos",
                 "qty": 25
             },
@@ -3023,7 +3008,7 @@ const recipeData = [
                 "qty": 160
             },
             {
-                "name": "SalmÃ³n limpio",
+                "name": "Salmón limpio",
                 "umg": "Gramos",
                 "qty": 165
             },
@@ -3038,7 +3023,7 @@ const recipeData = [
                 "qty": 4
             },
             {
-                "name": "PurÃ© de loche",
+                "name": "Puré de loche",
                 "umg": "Gramos",
                 "qty": 50
             },
@@ -3054,16 +3039,16 @@ const recipeData = [
             }
         ],
         "procedure": [
-            "1. Cocinar el salmÃ³n sobre plancha unilateral. Terminar cocciÃ³n en robata.",
+            "1. Cocinar el salmón sobre plancha unilateral. Terminar cocción en robata.",
             "2. Cocinar el bimi en la robata y reservar.",
-            "3. Hacer el beurre blanc de ajÃ­ amarillo y agregar los hongos, (setas, shimeji y trompeta de la muerte), integrar y reservar.",
+            "3. Hacer el beurre blanc de ají amarillo y agregar los hongos, (setas, shimeji y trompeta de la muerte), integrar y reservar.",
             "4. Calentar el cremoso de loche a fuego medio y reservar.",
             "5. Freir el kale.",
             "6. Cocinar los esparragos y cortarlos.",
-            "7. Para emplatar: sobre el plato de servicio muy caliente colocar el salmÃ³n y el cremoso de loche. Decorar con bimi braseado, kale frito y",
+            "7. Para emplatar: sobre el plato de servicio muy caliente colocar el salmón y el cremoso de loche. Decorar con bimi braseado, kale frito y",
             "esparragos verdes.",
             "8. Servir aparte la beurre blanc de aji amarillo y hongos.",
-            "9. AcompaÃ±ar con arroz con choclo"
+            "9. Acompañar con arroz con choclo"
         ]
     },
     {
@@ -3093,7 +3078,7 @@ const recipeData = [
             },
             {
                 "name": "Lubina",
-                "umg": "RACIÃ“N",
+                "umg": "RACIÓN",
                 "qty": 1
             },
             {
@@ -3127,7 +3112,7 @@ const recipeData = [
                 "qty": 40
             },
             {
-                "name": "Aderezo de fritura/chicharrÃ³n",
+                "name": "Aderezo de fritura/chicharrón",
                 "umg": "Gramos",
                 "qty": 30
             },
@@ -3137,7 +3122,7 @@ const recipeData = [
                 "qty": 140
             },
             {
-                "name": "Espinaca BebÃ©",
+                "name": "Espinaca Bebé",
                 "umg": "Gramos",
                 "qty": 10
             },
@@ -3169,12 +3154,12 @@ const recipeData = [
             "4. saltear las verduras al wok y las yucas freir",
             "5. para servir, poner la lubina en la base del plato, poner las veduras salteadas al lado derecha del pescado",
             "cubrir con una hojas de espinaca bebe",
-            "6. sale acompaÃ±ado de arroz choclo y salsa chorrillana a parte."
+            "6. sale acompañado de arroz choclo y salsa chorrillana a parte."
         ]
     },
     {
         "id": "noquis-y-presa-iberica",
-        "name": "Ã‘oquis y presa iberica",
+        "name": "Ñoquis y presa iberica",
         "category": "Principales",
         "status": "archived",
         "area": "Calientes",
@@ -3183,12 +3168,12 @@ const recipeData = [
         "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=1200",
         "ingredients": [
             {
-                "name": "Presa IbÃ©rica",
+                "name": "Presa Ibérica",
                 "umg": "Gramos",
                 "qty": 120
             },
             {
-                "name": "Ã‘oquis",
+                "name": "Ñoquis",
                 "umg": "PORCION",
                 "qty": 1
             },
@@ -3213,7 +3198,7 @@ const recipeData = [
                 "qty": 20
             },
             {
-                "name": "Papada IbÃ©rcia",
+                "name": "Papada Ibércia",
                 "umg": "Gramos",
                 "qty": 10
             },
@@ -3266,7 +3251,7 @@ const recipeData = [
                 "qty": 30
             },
             {
-                "name": "Encurtido de choclito bebÃ©",
+                "name": "Encurtido de choclito bebé",
                 "umg": "Gramos",
                 "qty": 15
             },
@@ -3292,7 +3277,7 @@ const subRecipeData = [
     {
         "id": "mouse-de-aguacate",
         "name": "Mouse de aguacate",
-        "category": "Fr+¡o-nikkei",
+        "category": "Frío-nikkei",
         "yield": 640.0,
         "ingredients": [
             {
@@ -3306,7 +3291,7 @@ const subRecipeData = [
                 "qty": 60.0
             },
             {
-                "name": "Lim+¦n marinado",
+                "name": "Limón marinado",
                 "umg": "ML",
                 "qty": 60.0
             },
@@ -3328,7 +3313,7 @@ const subRecipeData = [
     {
         "id": "salsa-acevichada",
         "name": "Salsa acevichada",
-        "category": "Fr+¡o-nikkei",
+        "category": "Frío-nikkei",
         "yield": 5470.0,
         "ingredients": [
             {
@@ -3342,7 +3327,7 @@ const subRecipeData = [
                 "qty": 250.0
             },
             {
-                "name": "Lim+¦n marinado",
+                "name": "Limón marinado",
                 "umg": "ML",
                 "qty": 300.0
             },
@@ -3382,7 +3367,7 @@ const subRecipeData = [
     {
         "id": "salsa-vinicunka",
         "name": "Salsa vinicunka",
-        "category": "Fr+¡o-nikkei",
+        "category": "Frío-nikkei",
         "yield": 5260.0,
         "ingredients": [
             {
@@ -3411,12 +3396,12 @@ const subRecipeData = [
                 "qty": 180.0
             },
             {
-                "name": "Lim+¦n marinado",
+                "name": "Limón marinado",
                 "umg": "ML",
                 "qty": 50.0
             },
             {
-                "name": "Piment+¦n dulce",
+                "name": "Pimentón dulce",
                 "umg": "GR",
                 "qty": 80.0
             }
@@ -3444,7 +3429,7 @@ const subRecipeData = [
                 "qty": 0
             },
             {
-                "name": "Lim+¦n marinado",
+                "name": "Limón marinado",
                 "umg": "GR",
                 "qty": 1100.0
             },
@@ -3493,7 +3478,7 @@ const subRecipeData = [
     {
         "id": "espuma-de-rocoto",
         "name": "Espuma de rocoto",
-        "category": "Fr+¡o-nikkei",
+        "category": "Frío-nikkei",
         "yield": 432.0,
         "ingredients": [
             {
@@ -3502,7 +3487,7 @@ const subRecipeData = [
                 "qty": 227.0
             },
             {
-                "name": "Lim+¦n marinado",
+                "name": "Limón marinado",
                 "umg": "ML",
                 "qty": 64.0
             },
@@ -3549,17 +3534,17 @@ const subRecipeData = [
     },
     {
         "id": "reduccion-de-maracuya",
-        "name": "Reducci+¦n de maracuya",
-        "category": "Fr+¡o-nikkei",
+        "name": "Reducción de maracuya",
+        "category": "Frío-nikkei",
         "yield": 853.0,
         "ingredients": [
             {
-                "name": "Pulpa maracuy+í",
+                "name": "Pulpa maracuy├í",
                 "umg": "ML",
                 "qty": 1000.0
             },
             {
-                "name": "Az+¦car blanco",
+                "name": "Azúcar blanco",
                 "umg": "GR",
                 "qty": 200.0
             },
@@ -3588,7 +3573,7 @@ const subRecipeData = [
     {
         "id": "vinagreta-de-mostaza",
         "name": "Vinagreta de mostaza",
-        "category": "Fr+¡o-nikkei",
+        "category": "Frío-nikkei",
         "yield": 2226.0,
         "ingredients": [
             {
@@ -3621,7 +3606,7 @@ const subRecipeData = [
     {
         "id": "aceite-de-cilantro",
         "name": "Aceite de cilantro",
-        "category": "Fr+¡o-nikkei",
+        "category": "Frío-nikkei",
         "yield": 1132.0,
         "ingredients": [
             {
@@ -3638,14 +3623,14 @@ const subRecipeData = [
         "procedure": [
             "1- blanquear el cilantro escurrir y cortar finamente",
             "2- poner todos los ingredientes en una procesadora",
-            "3- procesar hasta conseguir un aceite verde lim+¦n.",
+            "3- procesar hasta conseguir un aceite verde limón.",
             "4- tamizar y reservar empacado al vacio."
         ]
     },
     {
         "id": "espuma-de-cilantro",
         "name": "Espuma de cilantro",
-        "category": "Fr+¡o-nikkei",
+        "category": "Frío-nikkei",
         "yield": 890.0,
         "ingredients": [
             {
@@ -3677,17 +3662,17 @@ const subRecipeData = [
     },
     {
         "id": "salsa-de-maracuya",
-        "name": "Salsa de maracuy+í",
-        "category": "Fr+¡o-nikkei",
+        "name": "Salsa de maracuy├í",
+        "category": "Frío-nikkei",
         "yield": 1305.0,
         "ingredients": [
             {
-                "name": "Salsa de maracuyt+í",
+                "name": "Salsa de maracuyt├í",
                 "umg": "ML",
                 "qty": 1100.0
             },
             {
-                "name": "Az+¦car blanco",
+                "name": "Azúcar blanco",
                 "umg": "GR",
                 "qty": 40.0
             },
@@ -3702,7 +3687,7 @@ const subRecipeData = [
                 "qty": 0
             },
             {
-                "name": "Aceite de s+®samo",
+                "name": "Aceite de sésamo",
                 "umg": "ML",
                 "qty": 9.0
             },
@@ -3725,11 +3710,11 @@ const subRecipeData = [
     {
         "id": "leche-de-tigre-bachiche",
         "name": "Leche de tigre bachiche",
-        "category": "Fr+¡o-nikkei",
+        "category": "Frío-nikkei",
         "yield": 664.0,
         "ingredients": [
             {
-                "name": "Leche de tigre cl+ísica",
+                "name": "Leche de tigre cl├ísica",
                 "umg": "ML",
                 "qty": 700.0
             },
@@ -3774,7 +3759,7 @@ const subRecipeData = [
                 "qty": 7.0
             },
             {
-                "name": "Aj+¡ limo",
+                "name": "Ají limo",
                 "umg": "GR",
                 "qty": 13.0
             },
@@ -3790,7 +3775,7 @@ const subRecipeData = [
             }
         ],
         "procedure": [
-            "1- cortar el queso parmesano en dados muy peque+¦os",
+            "1- cortar el queso parmesano en dados muy pequeños",
             "2- poner todos los ingredientes en una procedadora y procesar hasta tener una salsa liger y homogenea",
             "3- tamizar y reservar empacado al vacio."
         ]
@@ -3798,16 +3783,16 @@ const subRecipeData = [
     {
         "id": "leche-de-tigre-q",
         "name": "Leche de tigre q",
-        "category": "Fr+¡o-nikkei",
+        "category": "Frío-nikkei",
         "yield": 1970.0,
         "ingredients": [
             {
-                "name": "Pasta Aj+¡ amarillo",
+                "name": "Pasta Ají amarillo",
                 "umg": "GR",
                 "qty": 1000.0
             },
             {
-                "name": "Lim+¦n marinado Quispe",
+                "name": "Limón marinado Quispe",
                 "umg": "GR",
                 "qty": 800.0
             },
@@ -3844,8 +3829,8 @@ const subRecipeData = [
     },
     {
         "id": "leche-de-tigre-clasica",
-        "name": "Leche de tigre cl+ísica",
-        "category": "Fr+¡o-nikkei",
+        "name": "Leche de tigre cl├ísica",
+        "category": "Frío-nikkei",
         "yield": 8320.0,
         "ingredients": [
             {
@@ -3874,7 +3859,7 @@ const subRecipeData = [
                 "qty": 50.0
             },
             {
-                "name": "Aj+¡ limo congelado",
+                "name": "Ají limo congelado",
                 "umg": "GR",
                 "qty": 20.0
             },
@@ -3915,7 +3900,7 @@ const subRecipeData = [
     {
         "id": "leche-de-tigre-de-rocoto",
         "name": "Leche de tigre de rocoto",
-        "category": "Fr+¡o-nikkei",
+        "category": "Frío-nikkei",
         "yield": 2033.0,
         "ingredients": [
             {
@@ -3924,7 +3909,7 @@ const subRecipeData = [
                 "qty": 1000.0
             },
             {
-                "name": "Lim+¦n marinado",
+                "name": "Limón marinado",
                 "umg": "ML",
                 "qty": 1000.0
             },
@@ -3957,7 +3942,7 @@ const subRecipeData = [
     {
         "id": "leche-de-tigre-sacha-tomate",
         "name": "Leche de tigre sacha tomate",
-        "category": "Fr+¡o-nikkei",
+        "category": "Frío-nikkei",
         "yield": 988.6,
         "ingredients": [
             {
@@ -3966,7 +3951,7 @@ const subRecipeData = [
                 "qty": 353.0
             },
             {
-                "name": "Leche de tigre cl+ísica",
+                "name": "Leche de tigre cl├ísica",
                 "umg": "GR",
                 "qty": 300.0
             },
@@ -4006,7 +3991,7 @@ const subRecipeData = [
                 "qty": 0
             },
             {
-                "name": "Aceite s+®samo",
+                "name": "Aceite sésamo",
                 "umg": "GR",
                 "qty": 5.2
             },
@@ -4016,7 +4001,7 @@ const subRecipeData = [
                 "qty": 0
             },
             {
-                "name": "Lim+¦n marinado",
+                "name": "Limón marinado",
                 "umg": "GR",
                 "qty": 183.0
             },
@@ -4039,7 +4024,7 @@ const subRecipeData = [
     {
         "id": "pasta-de-sacha-tomate",
         "name": "Pasta de sacha tomate",
-        "category": "Fr+¡o-nikkei",
+        "category": "Frío-nikkei",
         "yield": 5683.0,
         "ingredients": [
             {
@@ -4048,7 +4033,7 @@ const subRecipeData = [
                 "qty": 3000.0
             },
             {
-                "name": "Lilm+¦n marinado",
+                "name": "Lilmón marinado",
                 "umg": "GR",
                 "qty": 1500.0
             },
@@ -4077,17 +4062,17 @@ const subRecipeData = [
     },
     {
         "id": "emulsion-aji-amarillo-ahumado",
-        "name": "Emulsi+¦n aj+¡ amarillo ahumado",
+        "name": "Emulsión ají amarillo ahumado",
         "category": "Bases y Salsas",
         "yield": 1240.0,
         "ingredients": [
             {
-                "name": "Aj+¡ amarillo",
+                "name": "Ají amarillo",
                 "umg": "GR",
                 "qty": 1000.0
             },
             {
-                "name": "Lim+¦n marinado",
+                "name": "Limón marinado",
                 "umg": "GR",
                 "qty": 180.0
             },
@@ -4120,7 +4105,7 @@ const subRecipeData = [
     {
         "id": "maionesa-botija-aceituna",
         "name": "Maionesa botija aceituna",
-        "category": "Fr+¡o-nikkei",
+        "category": "Frío-nikkei",
         "yield": 1570.0,
         "ingredients": [
             {
@@ -4192,7 +4177,7 @@ const subRecipeData = [
                 "qty": 10.0
             },
             {
-                "name": "Lim+¦n",
+                "name": "Limón",
                 "umg": "GR",
                 "qty": 45.0
             }
@@ -4219,7 +4204,7 @@ const subRecipeData = [
                 "qty": 4000.0
             },
             {
-                "name": "Pasta aj+¡ amarillo",
+                "name": "Pasta ají amarillo",
                 "umg": "GR",
                 "qty": 0
             },
@@ -4239,7 +4224,7 @@ const subRecipeData = [
                 "qty": 1500.0
             },
             {
-                "name": "Az+¦car",
+                "name": "Azúcar",
                 "umg": "GR",
                 "qty": 400.0
             },
@@ -4257,7 +4242,7 @@ const subRecipeData = [
     },
     {
         "id": "beurre-blanc-aji-amarillo",
-        "name": "Beurre blanc aj+¡ amarillo",
+        "name": "Beurre blanc ají amarillo",
         "category": "Caliente",
         "yield": 1368.0,
         "ingredients": [
@@ -4267,7 +4252,7 @@ const subRecipeData = [
                 "qty": 600.0
             },
             {
-                "name": "Pasta aj+¡ amarillo",
+                "name": "Pasta ají amarillo",
                 "umg": "GR",
                 "qty": 250.0
             },
@@ -4303,7 +4288,7 @@ const subRecipeData = [
             }
         ],
         "procedure": [
-            "1- poner en una cacerola el fondo de pollo y reducir en 10 % y pasta de aj+¡ amarillo",
+            "1- poner en una cacerola el fondo de pollo y reducir en 10 % y pasta de ají amarillo",
             "2- agregar la mantequilla poco a poco y sin dejar de mover con batidor globo  hasta emulsionar",
             "3. agreagar los de mas ingredientes a fuego bajo  y seguir moviendo.",
             "4. tamizar y reservar empcado al vacio."
@@ -4462,7 +4447,7 @@ const subRecipeData = [
     {
         "id": "limon-marinado",
         "name": "Limon marinado",
-        "category": "Fr+¡o-nikkei",
+        "category": "Frío-nikkei",
         "yield": 4960.0,
         "ingredients": [
             {
@@ -4515,7 +4500,7 @@ const subRecipeData = [
             "1- seleccionar y limpiar todos las verduras",
             "2- triturar o aplastar con un martillo todas las verduras selecionadas",
             "3. poner en un bowl todos los ingredientes secos y reposar durante 15 minutos",
-            "4- agregar el zumo de lim+¦n y reposar durante 2 a 3 horas",
+            "4- agregar el zumo de limón y reposar durante 2 a 3 horas",
             "5- tamizar y reservar empcado al vacio."
         ]
     },
@@ -4556,7 +4541,7 @@ const subRecipeData = [
                 "qty": 40.0
             },
             {
-                "name": "Pasta aj+¡ amarillo",
+                "name": "Pasta ají amarillo",
                 "umg": "GR",
                 "qty": 50.0
             },
@@ -4596,7 +4581,7 @@ const subRecipeData = [
                 "qty": 1800.0
             },
             {
-                "name": "Az+¦car",
+                "name": "Azúcar",
                 "umg": "GR",
                 "qty": 200.0
             },
@@ -4676,7 +4661,7 @@ const subRecipeData = [
     },
     {
         "id": "alioli-de-aji-amarillo",
-        "name": "Alioli de aj+¡ amarillo",
+        "name": "Alioli de ají amarillo",
         "category": "Caliente",
         "yield": 5770.0,
         "ingredients": [
@@ -4686,7 +4671,7 @@ const subRecipeData = [
                 "qty": 4600.0
             },
             {
-                "name": "Pasta aj+¡ amarillo",
+                "name": "Pasta ají amarillo",
                 "umg": "GR",
                 "qty": 981.0
             },
@@ -4728,7 +4713,7 @@ const subRecipeData = [
     },
     {
         "id": "pure-de-coliflor",
-        "name": "Pur+® de coliflor",
+        "name": "Puré de coliflor",
         "category": "Caliente",
         "yield": 6600.0,
         "ingredients": [
@@ -4754,7 +4739,7 @@ const subRecipeData = [
             }
         ],
         "procedure": [
-            "1- limpiar el coliflor y cortar en cubos peque+¦os",
+            "1- limpiar el coliflor y cortar en cubos pequeños",
             "2- poner en una olla la mantequilla y la nata, agregar el coliflor limpio y cocinar a fuego lento por 1 hora aprox.",
             "3- cuando el coliflor este al dente, poner en el procesador y procesar hasta conseguir un pure sedoso.",
             "4- reservar y empcar al vacio."
@@ -4762,7 +4747,7 @@ const subRecipeData = [
     },
     {
         "id": "pure-de-loche-calabaza",
-        "name": "Pur+® de loche calabaza",
+        "name": "Puré de loche calabaza",
         "category": "Caliente",
         "yield": 6516.0,
         "ingredients": [
@@ -4803,7 +4788,7 @@ const subRecipeData = [
     {
         "id": "tartar-de-langostinos",
         "name": "Tartar de langostinos",
-        "category": "Fr+¡o-nikkei",
+        "category": "Frío-nikkei",
         "yield": 1338.0,
         "ingredients": [
             {
@@ -4854,15 +4839,15 @@ const subRecipeData = [
         ],
         "procedure": [
             "1- blanquear los los langostinos por 10 segundos y cortar coccion con hielo",
-            "2- cortar los langostinos y la cebolla en cubos muy peque+¦os y reservar",
+            "2- cortar los langostinos y la cebolla en cubos muy pequeños y reservar",
             "3- mezclar todos los ingredientes hasta obetener un tartare cremosa.",
             "4- reservar y empacar al vacio."
         ]
     },
     {
         "id": "tartar-de-atun",
-        "name": "Tartar de at+¦n",
-        "category": "Fr+¡o-nikkei",
+        "name": "Tartar de atún",
+        "category": "Frío-nikkei",
         "yield": 290.0,
         "ingredients": [
             {
@@ -4881,7 +4866,7 @@ const subRecipeData = [
                 "qty": 0
             },
             {
-                "name": "Aceite de s+®samo",
+                "name": "Aceite de sésamo",
                 "umg": "ML",
                 "qty": 6.0
             },
@@ -4917,7 +4902,7 @@ const subRecipeData = [
             }
         ],
         "procedure": [
-            "1- cortar el at+¦n en cubos muy pequ+¦os o los raspados de la ventresca.",
+            "1- cortar el atún en cubos muy pequños o los raspados de la ventresca.",
             "2- poner todos los ingredientes en un bowl",
             "3- mezclar hasta integrar todos los ingredientes",
             "4- reservar y empcar al vacio."
@@ -4925,8 +4910,8 @@ const subRecipeData = [
     },
     {
         "id": "tartar-de-salmon",
-        "name": "Tartar de salm+¦n",
-        "category": "Fr+¡o-nikkei",
+        "name": "Tartar de salmón",
+        "category": "Frío-nikkei",
         "yield": 531.3,
         "ingredients": [
             {
@@ -4955,7 +4940,7 @@ const subRecipeData = [
                 "qty": 20.2
             },
             {
-                "name": "Aceite de s+®samo",
+                "name": "Aceite de sésamo",
                 "umg": "ML",
                 "qty": 11.7
             },
@@ -4976,7 +4961,7 @@ const subRecipeData = [
             }
         ],
         "procedure": [
-            "1- cortar el salmon  en cubos muy pequ+¦os o los raspados de la ventresca.",
+            "1- cortar el salmon  en cubos muy pequños o los raspados de la ventresca.",
             "2- poner todos los ingredientes en un bowl",
             "3- mezclar hasta integrar todos los ingredientes",
             "4- reservar y empcar al vacio."
@@ -4985,7 +4970,7 @@ const subRecipeData = [
     {
         "id": "tartar-de-ventresca",
         "name": "Tartar de ventresca",
-        "category": "Fr+¡o-nikkei",
+        "category": "Frío-nikkei",
         "yield": 1300.0,
         "ingredients": [
             {
@@ -5116,7 +5101,7 @@ const subRecipeData = [
                 "qty": 200.0
             },
             {
-                "name": "Az+¦car",
+                "name": "Azúcar",
                 "umg": "GR",
                 "qty": 3000.0
             },
@@ -5126,7 +5111,7 @@ const subRecipeData = [
                 "qty": 300.0
             },
             {
-                "name": "Aceite s+®samo",
+                "name": "Aceite sésamo",
                 "umg": "ML",
                 "qty": 200.0
             }
@@ -5177,7 +5162,7 @@ const subRecipeData = [
     },
     {
         "id": "aceite-ajo-y-pimenton",
-        "name": "Aceite ajo y piment+¦n",
+        "name": "Aceite ajo y pimentón",
         "category": "Caliente",
         "yield": 1082.0,
         "ingredients": [
@@ -5246,7 +5231,7 @@ const subRecipeData = [
                 "qty": 1000.0
             },
             {
-                "name": "Aceite s+®samo",
+                "name": "Aceite sésamo",
                 "umg": "ML",
                 "qty": 0
             },
@@ -5270,7 +5255,7 @@ const subRecipeData = [
         "yield": 1653.0,
         "ingredients": [
             {
-                "name": "Mostaza cl+ísica",
+                "name": "Mostaza cl├ísica",
                 "umg": "GR",
                 "qty": 400.0
             },
@@ -5285,7 +5270,7 @@ const subRecipeData = [
                 "qty": 60.0
             },
             {
-                "name": "Aj+¡ amarillo",
+                "name": "Ají amarillo",
                 "umg": "GR",
                 "qty": 950.0
             },
@@ -5295,7 +5280,7 @@ const subRecipeData = [
                 "qty": 6.0
             },
             {
-                "name": "Or+®gano seco",
+                "name": "Orégano seco",
                 "umg": "GR",
                 "qty": 5.0
             },
@@ -5305,7 +5290,7 @@ const subRecipeData = [
                 "qty": 4.0
             },
             {
-                "name": "Salsa osti+¦n",
+                "name": "Salsa ostión",
                 "umg": "ML",
                 "qty": 80.0
             },
@@ -5400,7 +5385,7 @@ const subRecipeData = [
     {
         "id": "salsa-anticuchera",
         "name": "Salsa anticuchera",
-        "category": "Fr+¡o-nikkei",
+        "category": "Frío-nikkei",
         "yield": 6600.0,
         "ingredients": [
             {
@@ -5424,7 +5409,7 @@ const subRecipeData = [
                 "qty": 80.0
             },
             {
-                "name": "Leche de tigre cl+ísica",
+                "name": "Leche de tigre cl├ísica",
                 "umg": "ML",
                 "qty": 0
             },
@@ -5494,12 +5479,12 @@ const subRecipeData = [
     },
     {
         "id": "leche-tigre-aji-amarillo-ponzu",
-        "name": "Leche tigre aj+¡ amarillo ponzu",
+        "name": "Leche tigre ají amarillo ponzu",
         "category": "Bases y Salsas",
         "yield": 1040.0,
         "ingredients": [
             {
-                "name": "Pasta aj+¡ amarillo",
+                "name": "Pasta ají amarillo",
                 "umg": "GR",
                 "qty": 500.0
             },
@@ -5509,7 +5494,7 @@ const subRecipeData = [
                 "qty": 250.0
             },
             {
-                "name": "Lim+¦n marinado",
+                "name": "Limón marinado",
                 "umg": "ML",
                 "qty": 250.0
             },
@@ -5541,7 +5526,7 @@ const subRecipeData = [
     },
     {
         "id": "chips-de-platano",
-        "name": "Chips de pl+ítano",
+        "name": "Chips de pl├ítano",
         "category": "Caliente",
         "yield": 571.0,
         "ingredients": [
@@ -5576,4 +5561,3 @@ const subRecipeData = [
         ]
     }
 ];
-

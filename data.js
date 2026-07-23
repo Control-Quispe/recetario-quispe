@@ -1,4 +1,4 @@
-﻿// data.js
+// data.js
 const recipeData = [
     {
         "id": "cebiche-clasico",
@@ -2326,9 +2326,9 @@ const recipeData = [
         ]
     },
     {
-        "id": "secreto-iberico-en-salsa-anticuchera",
-        "name": "Secreto ibérico en salsa anticuchera",
-        "category": "Entrantes",
+        "id": "tortellini-loche",
+        "name": "Tortellini Loche",
+        "category": "Principales",
         "status": "active",
         "area": "Calientes",
         "time": "06:00",
